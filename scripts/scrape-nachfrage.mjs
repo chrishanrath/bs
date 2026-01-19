@@ -180,6 +180,48 @@ async function main() {
           school.changeErstwuensche = school.erstwuensche - prevWünsche;
         }
       }
+
+      // 2. Look for Abitur Data Table
+      // <table summary="Abiturnotenschnitt"> ... </table>
+      let abiTable = null;
+      $("table").each((_, table) => {
+        if ($(table).attr("summary") === "Abiturnotenschnitt" || $(table).text().includes("Abiturnotendurchschnitt")) {
+          abiTable = $(table);
+          return false;
+        }
+      });
+
+      if (abiTable) {
+        let bestYear = 0;
+        let bestGrade = null;
+
+        abiTable.find("tr").each((_, tr) => {
+          const tds = $(tr).find("td");
+          if (tds.length < 2) return;
+          
+          const yearStr = $(tds[0]).text().trim();
+          const year = parseInt(yearStr, 10);
+          
+          if (!isNaN(year)) {
+             // Grade is in 2nd column
+             let gradeText = $(tds[1]).text().trim().replace(",", ".");
+             const grade = parseFloat(gradeText);
+             
+             // We want the most recent year
+             if (!isNaN(grade) && year > bestYear) {
+               bestYear = year;
+               bestGrade = grade;
+             }
+          }
+        });
+
+        if (bestGrade !== null) {
+          // Update the school record. 
+          // This overwrites the main page data if found, which is fine (detailed page is likely more accurate/complete)
+          school.abiturNote = bestGrade;
+          school.abiturYear = bestYear; // Optional: store which year it is
+        }
+      }
       
       process.stdout.write("."); // Progress indicator
     } catch (e) {
