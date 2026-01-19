@@ -25,7 +25,7 @@
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 1600px;
       margin: 0 auto;
       padding: 20px;
     }
@@ -311,6 +311,10 @@
         <span class="value" id="stat-avg">-</span>
       </div>
       <div class="stat-card">
+        <span class="label">Ø Trend</span>
+        <span class="value" id="stat-trend">-</span>
+      </div>
+      <div class="stat-card">
         <span class="label">Plätze gesamt</span>
         <span class="value" id="stat-places">-</span>
       </div>
@@ -327,12 +331,13 @@
             <th data-k="erstwuensche">Wünsche</th>
             <th data-k="changeErstwuensche">Trend</th>
             <th data-k="nachfrageProzent">Quote (%)</th>
+            <th data-k="nachfrageProzent">Chance</th>
             <th data-k="abiturNote">Ø Abi</th>
             <th>Besonderheiten</th>
           </tr>
         </thead>
         <tbody id="rows">
-          <tr><td colspan="9" class="no-results">Lade Daten...</td></tr>
+          <tr><td colspan="10" class="no-results">Lade Daten...</td></tr>
         </tbody>
       </table>
     </div>
@@ -431,6 +436,16 @@
     });
   }
 
+  function getStrategyBadge(percentage) {
+    if (percentage >= 100) {
+      return `<span style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75rem; font-weight:bold; background:#ffe3e3; color:#c92a2a;">Nur Erstwunsch</span>`;
+    } else if (percentage >= 90) {
+      return `<span style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75rem; font-weight:bold; background:#fff3bf; color:#d05d00;">Risiko</span>`;
+    } else {
+      return `<span style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75rem; font-weight:bold; background:#d3f9d8; color:#2b8a3e;">Mögl. Zweitwunsch</span>`;
+    }
+  }
+
   function render() {
     const bezirkFilter = document.querySelector("#bezirk").value;
     const qFilter = normalize(document.querySelector("#q").value);
@@ -503,12 +518,21 @@
       ? Math.round(filtered.reduce((sum, r) => sum + r.nachfrageProzent, 0) / filtered.length)
       : 0;
     
+    // Calculate Average Trend (Change in wishes)
+    const validTrends = filtered.filter(r => r.changeErstwuensche !== undefined && r.changeErstwuensche !== null);
+    const avgTrend = validTrends.length > 0
+      ? Math.round(validTrends.reduce((sum, r) => sum + r.changeErstwuensche, 0) / validTrends.length)
+      : 0;
+    const trendSign = avgTrend > 0 ? "+" : "";
+
     document.querySelector("#stat-avg").textContent = avgDemand + "%";
+    document.querySelector("#stat-trend").textContent = `${trendSign}${avgTrend}`;
+    document.querySelector("#stat-trend").style.color = avgTrend > 0 ? "#c92a2a" : (avgTrend < 0 ? "#2b8a3e" : "inherit");
     document.querySelector("#stat-places").textContent = totalPlaces.toLocaleString("de-DE");
 
     const tbody = document.querySelector("#rows");
     if (filtered.length === 0) {
-      tbody.innerHTML = '<tr><td colspan="9" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="10" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
       return;
     }
 
@@ -530,6 +554,7 @@
             ${r.nachfrageProzent}%
           </span>
         </td>
+        <td>${getStrategyBadge(r.nachfrageProzent)}</td>
         <td>${r.abiturNote ? r.abiturNote.toFixed(2) : '-'}</td>
         <td>
           <div style="display:flex; flex-wrap:wrap; gap:4px; max-width:250px;">
@@ -619,7 +644,7 @@
     } catch (e) {
       console.error(e);
       document.querySelector("#rows").innerHTML = 
-        '<tr><td colspan="9" class="no-results">Fehler beim Laden der Daten. Bitte führen Sie den Scraper aus.</td></tr>';
+        '<tr><td colspan="10" class="no-results">Fehler beim Laden der Daten. Bitte führen Sie den Scraper aus.</td></tr>';
     }
   }
 
