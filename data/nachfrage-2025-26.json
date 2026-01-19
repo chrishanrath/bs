@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19T10:59:32.762Z",
+  "lastUpdated": "2026-01-19T11:03:25.165Z",
   "schools": [
     {
       "year": "2025/26",
@@ -10,7 +10,9 @@
       "plaetze": 32,
       "erstwuensche": 75,
       "nachfrageProzent": 234,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 55,
+      "changeErstwuensche": 20
     },
     {
       "year": "2025/26",
@@ -21,7 +23,9 @@
       "plaetze": 64,
       "erstwuensche": 99,
       "nachfrageProzent": 155,
-      "abiturNote": 1.87
+      "abiturNote": 1.87,
+      "previousYearErstwuensche": 62,
+      "changeErstwuensche": 37
     },
     {
       "year": "2025/26",
@@ -32,7 +36,9 @@
       "plaetze": 128,
       "erstwuensche": 156,
       "nachfrageProzent": 122,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 168,
+      "changeErstwuensche": -12
     },
     {
       "year": "2025/26",
@@ -43,7 +49,9 @@
       "plaetze": 188,
       "erstwuensche": 213,
       "nachfrageProzent": 113,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 161,
+      "changeErstwuensche": 52
     },
     {
       "year": "2025/26",
@@ -54,7 +62,9 @@
       "plaetze": 64,
       "erstwuensche": 67,
       "nachfrageProzent": 105,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 68,
+      "changeErstwuensche": -1
     },
     {
       "year": "2025/26",
@@ -65,7 +75,9 @@
       "plaetze": 128,
       "erstwuensche": 110,
       "nachfrageProzent": 86,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 144,
+      "changeErstwuensche": -34
     },
     {
       "year": "2025/26",
@@ -76,7 +88,9 @@
       "plaetze": 160,
       "erstwuensche": 129,
       "nachfrageProzent": 81,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 113,
+      "changeErstwuensche": 16
     },
     {
       "year": "2025/26",
@@ -87,7 +101,9 @@
       "plaetze": 160,
       "erstwuensche": 94,
       "nachfrageProzent": 59,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 131,
+      "changeErstwuensche": -37
     },
     {
       "year": "2025/26",
@@ -98,7 +114,9 @@
       "plaetze": 96,
       "erstwuensche": 43,
       "nachfrageProzent": 45,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 53,
+      "changeErstwuensche": -10
     },
     {
       "year": "2025/26",
@@ -109,7 +127,9 @@
       "plaetze": 128,
       "erstwuensche": 53,
       "nachfrageProzent": 41,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 112,
+      "changeErstwuensche": -59
     },
     {
       "year": "2025/26",
@@ -120,7 +140,9 @@
       "plaetze": 96,
       "erstwuensche": 146,
       "nachfrageProzent": 152,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 175,
+      "changeErstwuensche": -29
     },
     {
       "year": "2025/26",
@@ -131,7 +153,9 @@
       "plaetze": 64,
       "erstwuensche": 96,
       "nachfrageProzent": 150,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 110,
+      "changeErstwuensche": -14
     },
     {
       "year": "2025/26",
@@ -142,7 +166,9 @@
       "plaetze": 64,
       "erstwuensche": 70,
       "nachfrageProzent": 109,
-      "abiturNote": 1.91
+      "abiturNote": 1.91,
+      "previousYearErstwuensche": 40,
+      "changeErstwuensche": 30
     },
     {
       "year": "2025/26",
@@ -153,7 +179,9 @@
       "plaetze": 96,
       "erstwuensche": 89,
       "nachfrageProzent": 93,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 143,
+      "changeErstwuensche": -54
     },
     {
       "year": "2025/26",
@@ -164,7 +192,9 @@
       "plaetze": 160,
       "erstwuensche": 127,
       "nachfrageProzent": 79,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 161,
+      "changeErstwuensche": -34
     },
     {
       "year": "2025/26",
@@ -175,7 +205,9 @@
       "plaetze": 128,
       "erstwuensche": 88,
       "nachfrageProzent": 69,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 146,
+      "changeErstwuensche": -58
     },
     {
       "year": "2025/26",
@@ -186,7 +218,9 @@
       "plaetze": 128,
       "erstwuensche": 185,
       "nachfrageProzent": 145,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 190,
+      "changeErstwuensche": -5
     },
     {
       "year": "2025/26",
@@ -197,7 +231,9 @@
       "plaetze": 160,
       "erstwuensche": 222,
       "nachfrageProzent": 139,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 131,
+      "changeErstwuensche": 91
     },
     {
       "year": "2025/26",
@@ -208,7 +244,9 @@
       "plaetze": 96,
       "erstwuensche": 108,
       "nachfrageProzent": 113,
-      "abiturNote": 1.84
+      "abiturNote": 1.84,
+      "previousYearErstwuensche": 141,
+      "changeErstwuensche": -33
     },
     {
       "year": "2025/26",
@@ -219,7 +257,9 @@
       "plaetze": 128,
       "erstwuensche": 124,
       "nachfrageProzent": 97,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 155,
+      "changeErstwuensche": -31
     },
     {
       "year": "2025/26",
@@ -230,7 +270,9 @@
       "plaetze": 160,
       "erstwuensche": 109,
       "nachfrageProzent": 68,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 142,
+      "changeErstwuensche": -33
     },
     {
       "year": "2025/26",
@@ -241,7 +283,9 @@
       "plaetze": 160,
       "erstwuensche": 90,
       "nachfrageProzent": 56,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 21,
+      "changeErstwuensche": 69
     },
     {
       "year": "2025/26",
@@ -252,7 +296,9 @@
       "plaetze": 64,
       "erstwuensche": 94,
       "nachfrageProzent": 147,
-      "abiturNote": 1.8
+      "abiturNote": 1.8,
+      "previousYearErstwuensche": 111,
+      "changeErstwuensche": -17
     },
     {
       "year": "2025/26",
@@ -263,7 +309,9 @@
       "plaetze": 94,
       "erstwuensche": 114,
       "nachfrageProzent": 121,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 147,
+      "changeErstwuensche": -33
     },
     {
       "year": "2025/26",
@@ -274,7 +322,9 @@
       "plaetze": 160,
       "erstwuensche": 169,
       "nachfrageProzent": 106,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 201,
+      "changeErstwuensche": -32
     },
     {
       "year": "2025/26",
@@ -285,7 +335,9 @@
       "plaetze": 160,
       "erstwuensche": 128,
       "nachfrageProzent": 80,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 54,
+      "changeErstwuensche": 74
     },
     {
       "year": "2025/26",
@@ -296,7 +348,9 @@
       "plaetze": 160,
       "erstwuensche": 116,
       "nachfrageProzent": 73,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 118,
+      "changeErstwuensche": -2
     },
     {
       "year": "2025/26",
@@ -307,7 +361,9 @@
       "plaetze": 196,
       "erstwuensche": 99,
       "nachfrageProzent": 51,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 168,
+      "changeErstwuensche": -69
     },
     {
       "year": "2025/26",
@@ -318,7 +374,9 @@
       "plaetze": 64,
       "erstwuensche": 85,
       "nachfrageProzent": 133,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 118,
+      "changeErstwuensche": -33
     },
     {
       "year": "2025/26",
@@ -329,7 +387,9 @@
       "plaetze": 128,
       "erstwuensche": 166,
       "nachfrageProzent": 130,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 121,
+      "changeErstwuensche": 45
     },
     {
       "year": "2025/26",
@@ -340,7 +400,9 @@
       "plaetze": 160,
       "erstwuensche": 163,
       "nachfrageProzent": 102,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 178,
+      "changeErstwuensche": -15
     },
     {
       "year": "2025/26",
@@ -351,7 +413,9 @@
       "plaetze": 128,
       "erstwuensche": 95,
       "nachfrageProzent": 74,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 134,
+      "changeErstwuensche": -39
     },
     {
       "year": "2025/26",
@@ -362,7 +426,9 @@
       "plaetze": 128,
       "erstwuensche": 87,
       "nachfrageProzent": 68,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 217,
+      "changeErstwuensche": -130
     },
     {
       "year": "2025/26",
@@ -373,7 +439,9 @@
       "plaetze": 128,
       "erstwuensche": 64,
       "nachfrageProzent": 50,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 0,
+      "changeErstwuensche": 64
     },
     {
       "year": "2025/26",
@@ -384,7 +452,9 @@
       "plaetze": 60,
       "erstwuensche": 66,
       "nachfrageProzent": 110,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 91,
+      "changeErstwuensche": -25
     },
     {
       "year": "2025/26",
@@ -395,7 +465,9 @@
       "plaetze": 128,
       "erstwuensche": 125,
       "nachfrageProzent": 98,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 198,
+      "changeErstwuensche": -73
     },
     {
       "year": "2025/26",
@@ -406,7 +478,9 @@
       "plaetze": 192,
       "erstwuensche": 173,
       "nachfrageProzent": 90,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 148,
+      "changeErstwuensche": 25
     },
     {
       "year": "2025/26",
@@ -417,7 +491,9 @@
       "plaetze": 150,
       "erstwuensche": 130,
       "nachfrageProzent": 87,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 89,
+      "changeErstwuensche": 41
     },
     {
       "year": "2025/26",
@@ -428,7 +504,9 @@
       "plaetze": 90,
       "erstwuensche": 69,
       "nachfrageProzent": 77,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 101,
+      "changeErstwuensche": -32
     },
     {
       "year": "2025/26",
@@ -439,7 +517,9 @@
       "plaetze": 120,
       "erstwuensche": 79,
       "nachfrageProzent": 66,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 107,
+      "changeErstwuensche": -28
     },
     {
       "year": "2025/26",
@@ -450,7 +530,9 @@
       "plaetze": 96,
       "erstwuensche": 208,
       "nachfrageProzent": 217,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 136,
+      "changeErstwuensche": 72
     },
     {
       "year": "2025/26",
@@ -461,7 +543,9 @@
       "plaetze": 64,
       "erstwuensche": 102,
       "nachfrageProzent": 159,
-      "abiturNote": 1.73
+      "abiturNote": 1.73,
+      "previousYearErstwuensche": 91,
+      "changeErstwuensche": 11
     },
     {
       "year": "2025/26",
@@ -472,7 +556,9 @@
       "plaetze": 64,
       "erstwuensche": 95,
       "nachfrageProzent": 148,
-      "abiturNote": 1.66
+      "abiturNote": 1.66,
+      "previousYearErstwuensche": 92,
+      "changeErstwuensche": 3
     },
     {
       "year": "2025/26",
@@ -483,7 +569,9 @@
       "plaetze": 128,
       "erstwuensche": 186,
       "nachfrageProzent": 145,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 112,
+      "changeErstwuensche": 74
     },
     {
       "year": "2025/26",
@@ -494,7 +582,9 @@
       "plaetze": 160,
       "erstwuensche": 200,
       "nachfrageProzent": 125,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 167,
+      "changeErstwuensche": 33
     },
     {
       "year": "2025/26",
@@ -505,7 +595,9 @@
       "plaetze": 224,
       "erstwuensche": 273,
       "nachfrageProzent": 122,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 298,
+      "changeErstwuensche": -25
     },
     {
       "year": "2025/26",
@@ -516,7 +608,9 @@
       "plaetze": 160,
       "erstwuensche": 166,
       "nachfrageProzent": 104,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 207,
+      "changeErstwuensche": -41
     },
     {
       "year": "2025/26",
@@ -527,7 +621,9 @@
       "plaetze": 160,
       "erstwuensche": 138,
       "nachfrageProzent": 86,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 78,
+      "changeErstwuensche": 60
     },
     {
       "year": "2025/26",
@@ -538,7 +634,9 @@
       "plaetze": 224,
       "erstwuensche": 175,
       "nachfrageProzent": 78,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 186,
+      "changeErstwuensche": -11
     },
     {
       "year": "2025/26",
@@ -549,7 +647,9 @@
       "plaetze": 96,
       "erstwuensche": 115,
       "nachfrageProzent": 120,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 145,
+      "changeErstwuensche": -30
     },
     {
       "year": "2025/26",
@@ -560,7 +660,9 @@
       "plaetze": 160,
       "erstwuensche": 183,
       "nachfrageProzent": 114,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 237,
+      "changeErstwuensche": -54
     },
     {
       "year": "2025/26",
@@ -571,7 +673,9 @@
       "plaetze": 96,
       "erstwuensche": 106,
       "nachfrageProzent": 110,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 104,
+      "changeErstwuensche": 2
     },
     {
       "year": "2025/26",
@@ -582,7 +686,9 @@
       "plaetze": 96,
       "erstwuensche": 98,
       "nachfrageProzent": 102,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 85,
+      "changeErstwuensche": 13
     },
     {
       "year": "2025/26",
@@ -593,7 +699,9 @@
       "plaetze": 192,
       "erstwuensche": 138,
       "nachfrageProzent": 72,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 158,
+      "changeErstwuensche": -20
     },
     {
       "year": "2025/26",
@@ -604,7 +712,9 @@
       "plaetze": 128,
       "erstwuensche": 85,
       "nachfrageProzent": 66,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 100,
+      "changeErstwuensche": -15
     },
     {
       "year": "2025/26",
@@ -615,7 +725,9 @@
       "plaetze": 192,
       "erstwuensche": 100,
       "nachfrageProzent": 52,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 167,
+      "changeErstwuensche": -67
     },
     {
       "year": "2025/26",
@@ -626,7 +738,9 @@
       "plaetze": 128,
       "erstwuensche": 130,
       "nachfrageProzent": 102,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 121,
+      "changeErstwuensche": 9
     },
     {
       "year": "2025/26",
@@ -637,7 +751,9 @@
       "plaetze": 128,
       "erstwuensche": 110,
       "nachfrageProzent": 86,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 152,
+      "changeErstwuensche": -42
     },
     {
       "year": "2025/26",
@@ -648,7 +764,9 @@
       "plaetze": 128,
       "erstwuensche": 108,
       "nachfrageProzent": 84,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 114,
+      "changeErstwuensche": -6
     },
     {
       "year": "2025/26",
@@ -659,7 +777,9 @@
       "plaetze": 128,
       "erstwuensche": 100,
       "nachfrageProzent": 78,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 145,
+      "changeErstwuensche": -45
     },
     {
       "year": "2025/26",
@@ -670,7 +790,9 @@
       "plaetze": 122,
       "erstwuensche": 94,
       "nachfrageProzent": 77,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 130,
+      "changeErstwuensche": -36
     },
     {
       "year": "2025/26",
@@ -681,7 +803,9 @@
       "plaetze": 128,
       "erstwuensche": 215,
       "nachfrageProzent": 168,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 184,
+      "changeErstwuensche": 31
     },
     {
       "year": "2025/26",
@@ -692,7 +816,9 @@
       "plaetze": 96,
       "erstwuensche": 138,
       "nachfrageProzent": 144,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 119,
+      "changeErstwuensche": 19
     },
     {
       "year": "2025/26",
@@ -703,7 +829,9 @@
       "plaetze": 128,
       "erstwuensche": 148,
       "nachfrageProzent": 116,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 112,
+      "changeErstwuensche": 36
     },
     {
       "year": "2025/26",
@@ -714,7 +842,9 @@
       "plaetze": 128,
       "erstwuensche": 145,
       "nachfrageProzent": 113,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 194,
+      "changeErstwuensche": -49
     },
     {
       "year": "2025/26",
@@ -725,7 +855,9 @@
       "plaetze": 96,
       "erstwuensche": 96,
       "nachfrageProzent": 100,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 155,
+      "changeErstwuensche": -59
     },
     {
       "year": "2025/26",
@@ -736,7 +868,9 @@
       "plaetze": 96,
       "erstwuensche": 89,
       "nachfrageProzent": 93,
-      "abiturNote": 1.82
+      "abiturNote": 1.82,
+      "previousYearErstwuensche": 122,
+      "changeErstwuensche": -33
     },
     {
       "year": "2025/26",
@@ -747,7 +881,9 @@
       "plaetze": 128,
       "erstwuensche": 115,
       "nachfrageProzent": 90,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 142,
+      "changeErstwuensche": -27
     },
     {
       "year": "2025/26",
@@ -758,7 +894,9 @@
       "plaetze": 128,
       "erstwuensche": 111,
       "nachfrageProzent": 87,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 157,
+      "changeErstwuensche": -46
     },
     {
       "year": "2025/26",
@@ -769,7 +907,9 @@
       "plaetze": 128,
       "erstwuensche": 98,
       "nachfrageProzent": 77,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 97,
+      "changeErstwuensche": 1
     },
     {
       "year": "2025/26",
@@ -780,7 +920,9 @@
       "plaetze": 96,
       "erstwuensche": 72,
       "nachfrageProzent": 75,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 62,
+      "changeErstwuensche": 10
     },
     {
       "year": "2025/26",
@@ -791,7 +933,9 @@
       "plaetze": 128,
       "erstwuensche": 91,
       "nachfrageProzent": 71,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 124,
+      "changeErstwuensche": -33
     },
     {
       "year": "2025/26",
@@ -802,7 +946,9 @@
       "plaetze": 96,
       "erstwuensche": 56,
       "nachfrageProzent": 58,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 51,
+      "changeErstwuensche": 5
     },
     {
       "year": "2025/26",
@@ -813,7 +959,9 @@
       "plaetze": 32,
       "erstwuensche": 7,
       "nachfrageProzent": 22,
-      "abiturNote": 1.88
+      "abiturNote": 1.88,
+      "previousYearErstwuensche": 0,
+      "changeErstwuensche": 7
     },
     {
       "year": "2025/26",
@@ -824,7 +972,9 @@
       "plaetze": 128,
       "erstwuensche": 155,
       "nachfrageProzent": 121,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 143,
+      "changeErstwuensche": 12
     },
     {
       "year": "2025/26",
@@ -835,7 +985,9 @@
       "plaetze": 96,
       "erstwuensche": 103,
       "nachfrageProzent": 107,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 77,
+      "changeErstwuensche": 26
     },
     {
       "year": "2025/26",
@@ -846,7 +998,9 @@
       "plaetze": 128,
       "erstwuensche": 135,
       "nachfrageProzent": 105,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 120,
+      "changeErstwuensche": 15
     },
     {
       "year": "2025/26",
@@ -857,7 +1011,9 @@
       "plaetze": 96,
       "erstwuensche": 96,
       "nachfrageProzent": 100,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 111,
+      "changeErstwuensche": -15
     },
     {
       "year": "2025/26",
@@ -868,7 +1024,9 @@
       "plaetze": 128,
       "erstwuensche": 122,
       "nachfrageProzent": 95,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 128,
+      "changeErstwuensche": -6
     },
     {
       "year": "2025/26",
@@ -879,7 +1037,9 @@
       "plaetze": 128,
       "erstwuensche": 110,
       "nachfrageProzent": 86,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 166,
+      "changeErstwuensche": -56
     },
     {
       "year": "2025/26",
@@ -890,7 +1050,9 @@
       "plaetze": 128,
       "erstwuensche": 103,
       "nachfrageProzent": 80,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 149,
+      "changeErstwuensche": -46
     },
     {
       "year": "2025/26",
@@ -901,7 +1063,9 @@
       "plaetze": 64,
       "erstwuensche": 50,
       "nachfrageProzent": 78,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 58,
+      "changeErstwuensche": -8
     },
     {
       "year": "2025/26",
@@ -912,7 +1076,9 @@
       "plaetze": 64,
       "erstwuensche": 37,
       "nachfrageProzent": 58,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 58,
+      "changeErstwuensche": -21
     },
     {
       "year": "2025/26",
@@ -923,7 +1089,9 @@
       "plaetze": 128,
       "erstwuensche": 167,
       "nachfrageProzent": 130,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 173,
+      "changeErstwuensche": -6
     },
     {
       "year": "2025/26",
@@ -934,7 +1102,9 @@
       "plaetze": 128,
       "erstwuensche": 125,
       "nachfrageProzent": 98,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 146,
+      "changeErstwuensche": -21
     },
     {
       "year": "2025/26",
@@ -945,7 +1115,9 @@
       "plaetze": 160,
       "erstwuensche": 154,
       "nachfrageProzent": 96,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 156,
+      "changeErstwuensche": -2
     },
     {
       "year": "2025/26",
@@ -956,7 +1128,9 @@
       "plaetze": 160,
       "erstwuensche": 141,
       "nachfrageProzent": 88,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 116,
+      "changeErstwuensche": 25
     },
     {
       "year": "2025/26",
@@ -967,7 +1141,9 @@
       "plaetze": 160,
       "erstwuensche": 129,
       "nachfrageProzent": 80,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 121,
+      "changeErstwuensche": 8
     },
     {
       "year": "2025/26",
@@ -978,7 +1154,9 @@
       "plaetze": 128,
       "erstwuensche": 81,
       "nachfrageProzent": 63,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 119,
+      "changeErstwuensche": -38
     },
     {
       "year": "2025/26",
@@ -989,7 +1167,9 @@
       "plaetze": 84,
       "erstwuensche": 47,
       "nachfrageProzent": 56,
-      "abiturNote": null
+      "abiturNote": null,
+      "previousYearErstwuensche": 60,
+      "changeErstwuensche": -13
     }
   ]
 }

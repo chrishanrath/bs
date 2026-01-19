@@ -128,6 +128,65 @@ async function main() {
   }
 
   log(`Parsed ${allRows.length} rows total across all districts`);
+  log("Fetching detailed historical data for each school (this may take a while)…");
+
+  // Fetch details for each school to get previous year's data
+  for (let i = 0; i < allRows.length; i++) {
+    const school = allRows[i];
+    try {
+      // Be polite to the server
+      await new Promise(r => setTimeout(r, 100)); 
+      
+      const res = await fetch(school.url);
+      if (!res.ok) continue;
+      
+      const html = await res.text();
+      const $ = cheerio.load(html);
+
+      // Find the "Nachfrage" table
+      // It's usually after the heading "Nachfrage und angebotene Plätze"
+      // But the HTML structure is a bit messy. 
+      // We look for a table that contains "Plätze" and "1. Wünsche" in the header.
+      
+      let targetTable = null;
+      $("table").each((_, table) => {
+        const text = $(table).text();
+        if (text.includes("Plätze") && text.includes("1. Wünsche") && text.includes("Schuljahr")) {
+          targetTable = $(table);
+          return false; // break
+        }
+      });
+
+      if (targetTable) {
+        // Look for the row with the previous year (2024/25)
+        // We assume the current year is 2025/26
+        const prevYear = "2024/25";
+        let prevWünsche = null;
+
+        targetTable.find("tr").each((_, tr) => {
+          const tds = $(tr).find("td");
+          if ($(tds[0]).text().includes(prevYear)) {
+             // Column 2 (index 2) is "1. Wünsche" based on visual inspection
+             // 0: Schuljahr, 1: Plätze, 2: 1. Wünsche
+             const val = Number($(tds[2]).text().trim());
+             if (Number.isFinite(val)) {
+               prevWünsche = val;
+             }
+          }
+        });
+
+        if (prevWünsche !== null) {
+          school.previousYearErstwuensche = prevWünsche;
+          school.changeErstwuensche = school.erstwuensche - prevWünsche;
+        }
+      }
+      
+      process.stdout.write("."); // Progress indicator
+    } catch (e) {
+      // ignore errors for individual pages
+    }
+  }
+  process.stdout.write("\n");
 
   const output = {
     lastUpdated: new Date().toISOString(),
