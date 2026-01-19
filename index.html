@@ -3,62 +3,304 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gymnasium Nachfrage Berlin (V1)</title>
+  <title>Berlin Gymnasien – Nachfrage-Check 2025/26</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; }
-    header { display:flex; gap:12px; flex-wrap:wrap; align-items:end; }
-    label { display:flex; flex-direction:column; gap:6px; font-size:14px; }
-    select, input { padding:8px; font-size:14px; }
-    table { width:100%; border-collapse: collapse; margin-top: 16px; }
-    th, td { text-align:left; padding:10px; border-bottom:1px solid #ddd; }
-    th { cursor:pointer; user-select:none; }
-    .muted { color:#666; font-size: 13px; margin-top: 8px; }
+    :root {
+      --primary: #103574;
+      --accent: #e63946;
+      --bg: #f8f9fa;
+      --text: #212529;
+      --muted: #6c757d;
+      --border: #dee2e6;
+      --white: #ffffff;
+    }
+
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 40px 0;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin: 10px 0 0 0;
+      opacity: 0.9;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      background: var(--white);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    label {
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    input, select {
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: border-color 0.2s;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .stats {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat-card {
+      background: var(--white);
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+      flex: 1;
+      min-width: 150px;
+      border-left: 4px solid var(--primary);
+    }
+
+    .stat-card .label {
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .stat-card .value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      display: block;
+    }
+
+    .table-container {
+      background: var(--white);
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      background: #f1f3f5;
+      padding: 15px;
+      text-align: left;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+    }
+
+    th:hover {
+      background: #e9ecef;
+    }
+
+    th::after {
+      content: ' ↕';
+      font-size: 0.8rem;
+      opacity: 0.3;
+    }
+
+    td {
+      padding: 15px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background-color: #f8f9fa;
+    }
+
+    .school-name {
+      font-weight: 600;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .school-name:hover {
+      text-decoration: underline;
+    }
+
+    .ortsteil {
+      font-size: 0.85rem;
+      color: var(--muted);
+      display: block;
+    }
+
+    .percent-badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .percent-high { background: #ffe3e3; color: #c92a2a; }
+    .percent-medium { background: #fff4e6; color: #d9480f; }
+    .percent-low { background: #ebfbee; color: #2b8a3e; }
+
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding-bottom: 40px;
+    }
+
+    .no-results {
+      padding: 40px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 20px 0; }
+      .container { padding: 10px; }
+      th, td { padding: 10px; font-size: 0.9rem; }
+    }
   </style>
 </head>
 <body>
-  <h1>Nachfrage nach Gymnasien (Berlin)</h1>
 
   <header>
-    <label>
-      Ortsteil
-      <input id="ortsteil" placeholder="z. B. Prenzlauer Berg" />
-    </label>
-
-    <label>
-      Suche
-      <input id="q" placeholder="Schulname enthält …" />
-    </label>
+    <div class="container">
+      <h1>Gymnasium-Nachfrage Berlin</h1>
+      <p>Anmeldezahlen und Erstwunsch-Quote für das Schuljahr 2025/26</p>
+    </div>
   </header>
 
-  <div class="muted" id="meta"></div>
+  <main class="container">
+    <div class="controls">
+      <div class="form-group">
+        <label for="bezirk">Bezirk</label>
+        <select id="bezirk">
+          <option value="">- Alle Bezirke -</option>
+        </select>
+      </div>
 
-  <table>
-    <thead>
-      <tr>
-        <th data-k="name">Gymnasium</th>
-        <th data-k="ortsteil">Ortsteil</th>
-        <th data-k="plaetze">Plätze</th>
-        <th data-k="erstwuensche">1. Wünsche</th>
-        <th data-k="nachfrageProzent">in %</th>
-      </tr>
-    </thead>
-    <tbody id="rows"></tbody>
-  </table>
+      <div class="form-group">
+        <label for="ortsteil">Ortsteil</label>
+        <input id="ortsteil" placeholder="z. B. Mitte, Prenzlauer Berg..." />
+      </div>
+
+      <div class="form-group">
+        <label for="q">Schule suchen</label>
+        <input id="q" placeholder="Name der Schule..." />
+      </div>
+    </div>
+
+    <div class="stats" id="stats-container">
+      <div class="stat-card">
+        <span class="label">Schulen</span>
+        <span class="value" id="stat-count">-</span>
+      </div>
+      <div class="stat-card">
+        <span class="label">Ø Nachfrage</span>
+        <span class="value" id="stat-avg">-</span>
+      </div>
+      <div class="stat-card">
+        <span class="label">Plätze gesamt</span>
+        <span class="value" id="stat-places">-</span>
+      </div>
+    </div>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th data-k="name">Gymnasium</th>
+            <th data-k="bezirk">Bezirk</th>
+            <th data-k="ortsteil">Ortsteil</th>
+            <th data-k="plaetze">Plätze</th>
+            <th data-k="erstwuensche">Wünsche</th>
+            <th data-k="nachfrageProzent">Quote (%)</th>
+          </tr>
+        </thead>
+        <tbody id="rows">
+          <tr><td colspan="6" class="no-results">Lade Daten...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="footer">
+      Datenquelle: <a href="https://www.gymnasium-berlin.net/nachfrage" target="_blank">gymnasium-berlin.net</a><br>
+      <span id="last-updated"></span>
+    </div>
+  </main>
 
 <script>
-  let data = [];
+  let rawData = { schools: [] };
   let sortKey = "nachfrageProzent";
   let sortDir = "desc";
 
   function normalize(s){ return (s || "").toLowerCase().trim(); }
 
-  function render() {
-    const ortsteil = normalize(document.querySelector("#ortsteil").value);
-    const q = normalize(document.querySelector("#q").value);
+  function getPercentClass(p) {
+    if (p >= 150) return "percent-high";
+    if (p >= 100) return "percent-medium";
+    return "percent-low";
+  }
 
-    let filtered = data.filter(r => {
-      if (ortsteil && !normalize(r.ortsteil).includes(ortsteil)) return false;
-      if (q && !normalize(r.name).includes(q)) return false;
+  function render() {
+    const bezirkFilter = document.querySelector("#bezirk").value;
+    const ortsteilFilter = normalize(document.querySelector("#ortsteil").value);
+    const qFilter = normalize(document.querySelector("#q").value);
+
+    let filtered = rawData.schools.filter(r => {
+      if (bezirkFilter && r.bezirk !== bezirkFilter) return false;
+      if (ortsteilFilter && !normalize(r.ortsteil).includes(ortsteilFilter)) return false;
+      if (qFilter && !normalize(r.name).includes(qFilter)) return false;
       return true;
     });
 
@@ -70,24 +312,67 @@
       return sortDir === "asc" ? cmp : -cmp;
     });
 
-    document.querySelector("#meta").textContent =
-      `${filtered.length} Einträge (Sortierung: ${sortKey} ${sortDir})`;
+    // Update Stats
+    document.querySelector("#stat-count").textContent = filtered.length;
+    const totalPlaces = filtered.reduce((sum, r) => sum + r.plaetze, 0);
+    const avgDemand = filtered.length > 0
+      ? Math.round(filtered.reduce((sum, r) => sum + r.nachfrageProzent, 0) / filtered.length)
+      : 0;
+    
+    document.querySelector("#stat-avg").textContent = avgDemand + "%";
+    document.querySelector("#stat-places").textContent = totalPlaces.toLocaleString("de-DE");
 
     const tbody = document.querySelector("#rows");
+    if (filtered.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="6" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
+      return;
+    }
+
     tbody.innerHTML = filtered.map(r => `
       <tr>
-        <td><a href="${r.url}" target="_blank" rel="noreferrer">${r.name}</a></td>
+        <td>
+          <a href="${r.url}" class="school-name" target="_blank" rel="noreferrer">${r.name}</a>
+        </td>
+        <td>${r.bezirk}</td>
         <td>${r.ortsteil}</td>
         <td>${r.plaetze}</td>
         <td>${r.erstwuensche}</td>
-        <td>${r.nachfrageProzent}</td>
+        <td>
+          <span class="percent-badge ${getPercentClass(r.nachfrageProzent)}">
+            ${r.nachfrageProzent}%
+          </span>
+        </td>
       </tr>
     `).join("");
   }
 
   async function init() {
-    data = await fetch("./data/nachfrage-2025-26.json").then(r => r.json());
-    render();
+    try {
+      const response = await fetch("./data/nachfrage-2025-26.json");
+      rawData = await response.json();
+      
+      // Populate Bezirke
+      const bezirke = [...new Set(rawData.schools.map(r => r.bezirk))].sort();
+      const bezirkSelect = document.querySelector("#bezirk");
+      bezirke.forEach(b => {
+        const opt = document.createElement("option");
+        opt.value = b;
+        opt.textContent = b;
+        bezirkSelect.appendChild(opt);
+      });
+
+      if (rawData.lastUpdated) {
+        const date = new Date(rawData.lastUpdated);
+        document.querySelector("#last-updated").textContent = 
+          "Letztes Update: " + date.toLocaleString("de-DE");
+      }
+      
+      render();
+    } catch (e) {
+      console.error(e);
+      document.querySelector("#rows").innerHTML = 
+        '<tr><td colspan="6" class="no-results">Fehler beim Laden der Daten. Bitte führen Sie den Scraper aus.</td></tr>';
+    }
   }
 
   document.querySelectorAll("th[data-k]").forEach(th => {
@@ -99,8 +384,8 @@
     });
   });
 
-  ["#ortsteil","#q"].forEach(sel => {
-    document.querySelector(sel).addEventListener("input", render);
+  ["#ortsteil","#q","#bezirk"].forEach(sel => {
+    document.querySelector(sel).addEventListener(sel === "#bezirk" ? "change" : "input", render);
   });
 
   init();

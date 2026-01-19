@@ -1,812 +1,905 @@
-[
-  {
-    "year": "2025/26",
-    "name": "Hildegard-Wegscheider-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/hildegard-wegscheider-oberschule",
-    "ortsteil": "Grunewald",
-    "plaetze": 32,
-    "erstwuensche": 75,
-    "nachfrageProzent": 234
-  },
-  {
-    "year": "2025/26",
-    "name": "Heinrich-Schliemann-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/heinrich-schliemann-gymnasium",
-    "ortsteil": "Prenzlauer Berg",
-    "plaetze": 96,
-    "erstwuensche": 208,
-    "nachfrageProzent": 217
-  },
-  {
-    "year": "2025/26",
-    "name": "Fichtenberg-Oberschule",
-    "url": "https://www.gymnasium-berlin.net/fichtenberg-oberschule",
-    "ortsteil": "Steglitz",
-    "plaetze": 128,
-    "erstwuensche": 215,
-    "nachfrageProzent": 168
-  },
-  {
-    "year": "2025/26",
-    "name": "Rosa-Luxemburg-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/rosa-luxemburg-gymnasium",
-    "ortsteil": "Pankow",
-    "plaetze": 64,
-    "erstwuensche": 102,
-    "nachfrageProzent": 159
-  },
-  {
-    "year": "2025/26",
-    "name": "Heinz-Berggruen-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/heinz-berggruen-schule",
-    "ortsteil": "Westend",
-    "plaetze": 64,
-    "erstwuensche": 99,
-    "nachfrageProzent": 155
-  },
-  {
-    "year": "2025/26",
-    "name": "Hermann-Hesse-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/hermann-hesse-oberschule",
-    "ortsteil": "Kreuzberg",
-    "plaetze": 96,
-    "erstwuensche": 146,
-    "nachfrageProzent": 152
-  },
-  {
-    "year": "2025/26",
-    "name": "Dathe-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/dathe-oberschule",
-    "ortsteil": "Friedrichshain",
-    "plaetze": 64,
-    "erstwuensche": 96,
-    "nachfrageProzent": 150
-  },
-  {
-    "year": "2025/26",
-    "name": "Käthe-Kollwitz-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/kaethe-kollwitz-oberschule",
-    "ortsteil": "Prenzlauer Berg",
-    "plaetze": 64,
-    "erstwuensche": 95,
-    "nachfrageProzent": 148
-  },
-  {
-    "year": "2025/26",
-    "name": "Otto-Nagel-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/otto-nagel-gymnasium",
-    "ortsteil": "Biesdorf",
-    "plaetze": 64,
-    "erstwuensche": 94,
-    "nachfrageProzent": 147
-  },
-  {
-    "year": "2025/26",
-    "name": "Barnim-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/barnim-oberschule",
-    "ortsteil": "Falkenberg",
-    "plaetze": 128,
-    "erstwuensche": 185,
-    "nachfrageProzent": 145
-  },
-  {
-    "year": "2025/26",
-    "name": "Primo-Levi-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/primo-levi-schule",
-    "ortsteil": "Weißensee",
-    "plaetze": 128,
-    "erstwuensche": 186,
-    "nachfrageProzent": 145
-  },
-  {
-    "year": "2025/26",
-    "name": "Schadow-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/schadow-gymnasium",
-    "ortsteil": "Zehlendorf",
-    "plaetze": 96,
-    "erstwuensche": 138,
-    "nachfrageProzent": 144
-  },
-  {
-    "year": "2025/26",
-    "name": "Immanuel-Kant-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/immanuel-kant-schule",
-    "ortsteil": "Rummelsburg",
-    "plaetze": 160,
-    "erstwuensche": 222,
-    "nachfrageProzent": 139
-  },
-  {
-    "year": "2025/26",
-    "name": "Lessing-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/lessing-gymnasium",
-    "ortsteil": "Wedding",
-    "plaetze": 64,
-    "erstwuensche": 85,
-    "nachfrageProzent": 133
-  },
-  {
-    "year": "2025/26",
-    "name": "Gerhart-Hauptmann-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/gerhart-hauptmann-gymnasium",
-    "ortsteil": "Friedrichshagen",
-    "plaetze": 128,
-    "erstwuensche": 167,
-    "nachfrageProzent": 130
-  },
-  {
-    "year": "2025/26",
-    "name": "John-Lennon-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/john-lennon-gymnasium",
-    "ortsteil": "Mitte",
-    "plaetze": 128,
-    "erstwuensche": 166,
-    "nachfrageProzent": 130
-  },
-  {
-    "year": "2025/26",
-    "name": "Max-Delbrück-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/max-delbrueck-schule",
-    "ortsteil": "Niederschönhausen",
-    "plaetze": 160,
-    "erstwuensche": 200,
-    "nachfrageProzent": 125
-  },
-  {
-    "year": "2025/26",
-    "name": "Friedrich-Ebert-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/friedrich-ebert-oberschule",
-    "ortsteil": "Wilmersdorf",
-    "plaetze": 128,
-    "erstwuensche": 156,
-    "nachfrageProzent": 122
-  },
-  {
-    "year": "2025/26",
-    "name": "Felix-Mendelssohn-Bartholdy-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/felix-mendelssohn-bartholdy-schule",
-    "ortsteil": "Prenzlauer Berg",
-    "plaetze": 224,
-    "erstwuensche": 273,
-    "nachfrageProzent": 122
-  },
-  {
-    "year": "2025/26",
-    "name": "Melanchthon-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/melanchthon-schule",
-    "ortsteil": "Hellersdorf",
-    "plaetze": 94,
-    "erstwuensche": 114,
-    "nachfrageProzent": 121
-  },
-  {
-    "year": "2025/26",
-    "name": "Paul-Natorp-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/paul-natorp-gymnasium",
-    "ortsteil": "Friedenau",
-    "plaetze": 128,
-    "erstwuensche": 155,
-    "nachfrageProzent": 121
-  },
-  {
-    "year": "2025/26",
-    "name": "Humboldt-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/humboldt-gymnasium",
-    "ortsteil": "Tegel",
-    "plaetze": 96,
-    "erstwuensche": 115,
-    "nachfrageProzent": 120
-  },
-  {
-    "year": "2025/26",
-    "name": "Goethe-Gymnasium Lichterfelde",
-    "url": "https://www.gymnasium-berlin.net/goethe-oberschule",
-    "ortsteil": "Lichterfelde",
-    "plaetze": 128,
-    "erstwuensche": 148,
-    "nachfrageProzent": 116
-  },
-  {
-    "year": "2025/26",
-    "name": "Gabriele-von-Bülow-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/gabriele-von-buelow-gymnasium",
-    "ortsteil": "Tegel",
-    "plaetze": 160,
-    "erstwuensche": 183,
-    "nachfrageProzent": 114
-  },
-  {
-    "year": "2025/26",
-    "name": "Schiller-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/schiller-oberschule",
-    "ortsteil": "Charlottenburg",
-    "plaetze": 188,
-    "erstwuensche": 213,
-    "nachfrageProzent": 113
-  },
-  {
-    "year": "2025/26",
-    "name": "Beethoven-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/beethoven-schule",
-    "ortsteil": "Lankwitz",
-    "plaetze": 128,
-    "erstwuensche": 145,
-    "nachfrageProzent": 113
-  },
-  {
-    "year": "2025/26",
-    "name": "Johann-Gottfried-Herder-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/johann-gottfried-herder-oberschule",
-    "ortsteil": "Fennpfuhl",
-    "plaetze": 96,
-    "erstwuensche": 108,
-    "nachfrageProzent": 113
-  },
-  {
-    "year": "2025/26",
-    "name": "Friedrich-Engels-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/friedrich-engels-gymnasium",
-    "ortsteil": "Reinickendorf",
-    "plaetze": 96,
-    "erstwuensche": 106,
-    "nachfrageProzent": 110
-  },
-  {
-    "year": "2025/26",
-    "name": "Albrecht-Dürer-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/albrecht-duerer-gymnasium",
-    "ortsteil": "Neukölln",
-    "plaetze": 60,
-    "erstwuensche": 66,
-    "nachfrageProzent": 110
-  },
-  {
-    "year": "2025/26",
-    "name": "Heinrich-Hertz-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/heinrich-hertz-oberschule",
-    "ortsteil": "Friedrichshain",
-    "plaetze": 64,
-    "erstwuensche": 70,
-    "nachfrageProzent": 109
-  },
-  {
-    "year": "2025/26",
-    "name": "Luise-Henriette-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/luise-henriette-oberschule",
-    "ortsteil": "Mariendorf",
-    "plaetze": 96,
-    "erstwuensche": 103,
-    "nachfrageProzent": 107
-  },
-  {
-    "year": "2025/26",
-    "name": "Wilhelm-von-Siemens-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/wilhelm-von-siemens-oberschule",
-    "ortsteil": "Biesdorf",
-    "plaetze": 160,
-    "erstwuensche": 169,
-    "nachfrageProzent": 106
-  },
-  {
-    "year": "2025/26",
-    "name": "Herder-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/herder-oberschule",
-    "ortsteil": "Westend",
-    "plaetze": 64,
-    "erstwuensche": 67,
-    "nachfrageProzent": 105
-  },
-  {
-    "year": "2025/26",
-    "name": "Rheingau-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/rheingau-gymnasium",
-    "ortsteil": "Friedenau",
-    "plaetze": 128,
-    "erstwuensche": 135,
-    "nachfrageProzent": 105
-  },
-  {
-    "year": "2025/26",
-    "name": "Carl-von-Ossietzky-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/carl-von-ossietzky-gymnasium",
-    "ortsteil": "Pankow",
-    "plaetze": 160,
-    "erstwuensche": 166,
-    "nachfrageProzent": 104
-  },
-  {
-    "year": "2025/26",
-    "name": "Freiherr-vom-Stein-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/freiherr-vom-stein-gymnasium",
-    "ortsteil": "Spandau",
-    "plaetze": 128,
-    "erstwuensche": 130,
-    "nachfrageProzent": 102
-  },
-  {
-    "year": "2025/26",
-    "name": "Max-Planck-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/max-planck-schule",
-    "ortsteil": "Mitte",
-    "plaetze": 160,
-    "erstwuensche": 163,
-    "nachfrageProzent": 102
-  },
-  {
-    "year": "2025/26",
-    "name": "Bertha-von-Suttner-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/bertha-von-suttner-gymnasium",
-    "ortsteil": "Reinickendorf",
-    "plaetze": 96,
-    "erstwuensche": 98,
-    "nachfrageProzent": 102
-  },
-  {
-    "year": "2025/26",
-    "name": "Willi-Graf-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/willi-graf-gymnasium",
-    "ortsteil": "Lichterfelde",
-    "plaetze": 96,
-    "erstwuensche": 96,
-    "nachfrageProzent": 100
-  },
-  {
-    "year": "2025/26",
-    "name": "Georg-Büchner-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/georg-buechner-gymnasium",
-    "ortsteil": "Lichtenrade",
-    "plaetze": 96,
-    "erstwuensche": 96,
-    "nachfrageProzent": 100
-  },
-  {
-    "year": "2025/26",
-    "name": "Hannah-Arendt-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/hannah-arendt-gymnasium",
-    "ortsteil": "Rudow",
-    "plaetze": 128,
-    "erstwuensche": 125,
-    "nachfrageProzent": 98
-  },
-  {
-    "year": "2025/26",
-    "name": "Archenhold-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/archenhold-gymnasium",
-    "ortsteil": "Niederschöneweide",
-    "plaetze": 128,
-    "erstwuensche": 125,
-    "nachfrageProzent": 98
-  },
-  {
-    "year": "2025/26",
-    "name": "Hans-und-Hilde-Coppi-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/hans-und-hilde-coppi-oberschule",
-    "ortsteil": "Karlshorst",
-    "plaetze": 128,
-    "erstwuensche": 124,
-    "nachfrageProzent": 97
-  },
-  {
-    "year": "2025/26",
-    "name": "Gebrüder-Montgolfier-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/gebrueder-montgolfier-gymnasium",
-    "ortsteil": "Johannisthal",
-    "plaetze": 160,
-    "erstwuensche": 154,
-    "nachfrageProzent": 96
-  },
-  {
-    "year": "2025/26",
-    "name": "Ulrich-von-Hutten-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/ulrich-von-hutten-gymnasium",
-    "ortsteil": "Lichtenrade",
-    "plaetze": 128,
-    "erstwuensche": 122,
-    "nachfrageProzent": 95
-  },
-  {
-    "year": "2025/26",
-    "name": "Andreas-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/andreas-oberschule",
-    "ortsteil": "Friedrichshain",
-    "plaetze": 96,
-    "erstwuensche": 89,
-    "nachfrageProzent": 93
-  },
-  {
-    "year": "2025/26",
-    "name": "Arndt-Gymnasium Dahlem",
-    "url": "https://www.gymnasium-berlin.net/arndt-gymnasium-dahlem",
-    "ortsteil": "Dahlem",
-    "plaetze": 96,
-    "erstwuensche": 89,
-    "nachfrageProzent": 93
-  },
-  {
-    "year": "2025/26",
-    "name": "Albert-Einstein-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/albert-einstein-gymnasium",
-    "ortsteil": "Britz",
-    "plaetze": 192,
-    "erstwuensche": 173,
-    "nachfrageProzent": 90
-  },
-  {
-    "year": "2025/26",
-    "name": "Lilienthal-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/lilienthal-gymnasium",
-    "ortsteil": "Lichterfelde",
-    "plaetze": 128,
-    "erstwuensche": 115,
-    "nachfrageProzent": 90
-  },
-  {
-    "year": "2025/26",
-    "name": "Alexander-von-Humboldt-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/alexander-von-humboldt-gymnasium",
-    "ortsteil": "Köpenick",
-    "plaetze": 160,
-    "erstwuensche": 141,
-    "nachfrageProzent": 88
-  },
-  {
-    "year": "2025/26",
-    "name": "Leonardo-da-Vinci-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/leonardo-da-vinci-gymnasium",
-    "ortsteil": "Buckow",
-    "plaetze": 150,
-    "erstwuensche": 130,
-    "nachfrageProzent": 87
-  },
-  {
-    "year": "2025/26",
-    "name": "Droste-Hülshoff-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/droste-huelshoff-schule",
-    "ortsteil": "Zehlendorf",
-    "plaetze": 128,
-    "erstwuensche": 111,
-    "nachfrageProzent": 87
-  },
-  {
-    "year": "2025/26",
-    "name": "Askanisches Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/askanisches-gymnasium",
-    "ortsteil": "Tempelhof",
-    "plaetze": 128,
-    "erstwuensche": 110,
-    "nachfrageProzent": 86
-  },
-  {
-    "year": "2025/26",
-    "name": "Carl-Friedrich-von-Siemens-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/carl-friedrich-von-siemens-oberschule",
-    "ortsteil": "Siemensstadt",
-    "plaetze": 128,
-    "erstwuensche": 110,
-    "nachfrageProzent": 86
-  },
-  {
-    "year": "2025/26",
-    "name": "Inge-Deutschkron-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/gymnasium-am-europasportpark",
-    "ortsteil": "Wilhelmsruh",
-    "plaetze": 160,
-    "erstwuensche": 138,
-    "nachfrageProzent": 86
-  },
-  {
-    "year": "2025/26",
-    "name": "Wald-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/wald-oberschule",
-    "ortsteil": "Westend",
-    "plaetze": 128,
-    "erstwuensche": 110,
-    "nachfrageProzent": 86
-  },
-  {
-    "year": "2025/26",
-    "name": "Lily-Braun-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/lily-braun-oberschule",
-    "ortsteil": "Spandau",
-    "plaetze": 128,
-    "erstwuensche": 108,
-    "nachfrageProzent": 84
-  },
-  {
-    "year": "2025/26",
-    "name": "Sophie-Charlotte-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/sophie-charlotte-oberschule",
-    "ortsteil": "Charlottenburg",
-    "plaetze": 160,
-    "erstwuensche": 129,
-    "nachfrageProzent": 81
-  },
-  {
-    "year": "2025/26",
-    "name": "Anne-Frank-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/anne-frank-gymnasium",
-    "ortsteil": "Altglienicke",
-    "plaetze": 160,
-    "erstwuensche": 129,
-    "nachfrageProzent": 80
-  },
-  {
-    "year": "2025/26",
-    "name": "Robert-Blum-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/robert-blum-gymnasium",
-    "ortsteil": "Schöneberg",
-    "plaetze": 128,
-    "erstwuensche": 103,
-    "nachfrageProzent": 80
-  },
-  {
-    "year": "2025/26",
-    "name": "Gymnasium Kaulsdorf",
-    "url": "https://www.gymnasium-berlin.net/gymnasium-kaulsdorf",
-    "ortsteil": "Hellersdorf",
-    "plaetze": 160,
-    "erstwuensche": 128,
-    "nachfrageProzent": 80
-  },
-  {
-    "year": "2025/26",
-    "name": "Leibniz-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/leibniz-oberschule",
-    "ortsteil": "Kreuzberg",
-    "plaetze": 160,
-    "erstwuensche": 127,
-    "nachfrageProzent": 79
-  },
-  {
-    "year": "2025/26",
-    "name": "Eckener-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/eckener-gymnasium",
-    "ortsteil": "Mariendorf",
-    "plaetze": 64,
-    "erstwuensche": 50,
-    "nachfrageProzent": 78
-  },
-  {
-    "year": "2025/26",
-    "name": "Robert-Havemann-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/robert-havemann-schule",
-    "ortsteil": "Karow",
-    "plaetze": 224,
-    "erstwuensche": 175,
-    "nachfrageProzent": 78
-  },
-  {
-    "year": "2025/26",
-    "name": "Kant-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/kant-gymnasium",
-    "ortsteil": "Spandau",
-    "plaetze": 128,
-    "erstwuensche": 100,
-    "nachfrageProzent": 78
-  },
-  {
-    "year": "2025/26",
-    "name": "Hans-Carossa-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/hans-carossa-gymnasium",
-    "ortsteil": "Kladow",
-    "plaetze": 122,
-    "erstwuensche": 94,
-    "nachfrageProzent": 77
-  },
-  {
-    "year": "2025/26",
-    "name": "Albert-Schweitzer-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/albert-schweitzer-schule",
-    "ortsteil": "Neukölln",
-    "plaetze": 90,
-    "erstwuensche": 69,
-    "nachfrageProzent": 77
-  },
-  {
-    "year": "2025/26",
-    "name": "Dreilinden-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/dreilinden-gymnasium",
-    "ortsteil": "Nikolassee",
-    "plaetze": 128,
-    "erstwuensche": 98,
-    "nachfrageProzent": 77
-  },
-  {
-    "year": "2025/26",
-    "name": "Werner-von-Siemens-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/werner-von-siemens-gymnasium",
-    "ortsteil": "Nikolassee",
-    "plaetze": 96,
-    "erstwuensche": 72,
-    "nachfrageProzent": 75
-  },
-  {
-    "year": "2025/26",
-    "name": "Diesterweg-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/diesterweg-schule",
-    "ortsteil": "Gesundbrunnen",
-    "plaetze": 128,
-    "erstwuensche": 95,
-    "nachfrageProzent": 74
-  },
-  {
-    "year": "2025/26",
-    "name": "Tagore-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/tagore-schule",
-    "ortsteil": "Marzahn",
-    "plaetze": 160,
-    "erstwuensche": 116,
-    "nachfrageProzent": 73
-  },
-  {
-    "year": "2025/26",
-    "name": "Georg-Herwegh-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/georg-herwegh-gymnasium",
-    "ortsteil": "Hermsdorf",
-    "plaetze": 192,
-    "erstwuensche": 138,
-    "nachfrageProzent": 72
-  },
-  {
-    "year": "2025/26",
-    "name": "Paulsen-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/paulsen-gymnasium",
-    "ortsteil": "Steglitz",
-    "plaetze": 128,
-    "erstwuensche": 91,
-    "nachfrageProzent": 71
-  },
-  {
-    "year": "2025/26",
-    "name": "Robert-Koch-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/robert-koch-gymnasium",
-    "ortsteil": "Kreuzberg",
-    "plaetze": 128,
-    "erstwuensche": 88,
-    "nachfrageProzent": 69
-  },
-  {
-    "year": "2025/26",
-    "name": "Gymnasium Tiergarten",
-    "url": "https://www.gymnasium-berlin.net/gymnasium-tiergarten",
-    "ortsteil": "Hansaviertel",
-    "plaetze": 128,
-    "erstwuensche": 87,
-    "nachfrageProzent": 68
-  },
-  {
-    "year": "2025/26",
-    "name": "Manfred-von-Ardenne-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/manfred-von-ardenne-schule",
-    "ortsteil": "Alt-Hohenschönhausen",
-    "plaetze": 160,
-    "erstwuensche": 109,
-    "nachfrageProzent": 68
-  },
-  {
-    "year": "2025/26",
-    "name": "Romain-Rolland-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/romain-rolland-gymnasium",
-    "ortsteil": "Wittenau",
-    "plaetze": 128,
-    "erstwuensche": 85,
-    "nachfrageProzent": 66
-  },
-  {
-    "year": "2025/26",
-    "name": "Ernst-Abbe-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/ernst-abbe-schule",
-    "ortsteil": "Neukölln",
-    "plaetze": 120,
-    "erstwuensche": 79,
-    "nachfrageProzent": 66
-  },
-  {
-    "year": "2025/26",
-    "name": "Emmy-Noether-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/emmy-noether-gymnasium",
-    "ortsteil": "Köpenick",
-    "plaetze": 128,
-    "erstwuensche": 81,
-    "nachfrageProzent": 63
-  },
-  {
-    "year": "2025/26",
-    "name": "Gottfried-Keller-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/gottfried-keller-oberschule",
-    "ortsteil": "Charlottenburg",
-    "plaetze": 160,
-    "erstwuensche": 94,
-    "nachfrageProzent": 59
-  },
-  {
-    "year": "2025/26",
-    "name": "Hermann-Ehlers-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/hermann-ehlers-gymnasium",
-    "ortsteil": "Steglitz",
-    "plaetze": 96,
-    "erstwuensche": 56,
-    "nachfrageProzent": 58
-  },
-  {
-    "year": "2025/26",
-    "name": "Rückert-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/rueckert-gymnasium",
-    "ortsteil": "Schöneberg",
-    "plaetze": 64,
-    "erstwuensche": 37,
-    "nachfrageProzent": 58
-  },
-  {
-    "year": "2025/26",
-    "name": "Gymnasium Baumschulenweg",
-    "url": "https://www.gymnasium-berlin.net/gymnasium-baumschulenweg",
-    "ortsteil": "Baumschulenweg",
-    "plaetze": 84,
-    "erstwuensche": 47,
-    "nachfrageProzent": 56
-  },
-  {
-    "year": "2025/26",
-    "name": "Gymnasium Allee der Kosmonauten",
-    "url": "https://www.gymnasium-berlin.net/gymnasium-allee-der-kosmonauten",
-    "ortsteil": "Lichtenberg",
-    "plaetze": 160,
-    "erstwuensche": 90,
-    "nachfrageProzent": 56
-  },
-  {
-    "year": "2025/26",
-    "name": "Thomas-Mann-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/thomas-mann-gymnasium",
-    "ortsteil": "Märkisches Viertel",
-    "plaetze": 192,
-    "erstwuensche": 100,
-    "nachfrageProzent": 52
-  },
-  {
-    "year": "2025/26",
-    "name": "Sartre-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/sartre-oberschule",
-    "ortsteil": "Hellersdorf",
-    "plaetze": 196,
-    "erstwuensche": 99,
-    "nachfrageProzent": 51
-  },
-  {
-    "year": "2025/26",
-    "name": "Rosalind-Franklin-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/13-gymnasium-mitte",
-    "ortsteil": "Moabit",
-    "plaetze": 128,
-    "erstwuensche": 64,
-    "nachfrageProzent": 50
-  },
-  {
-    "year": "2025/26",
-    "name": "Walther-Rathenau-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/walther-rathenau-schule",
-    "ortsteil": "Grunewald",
-    "plaetze": 96,
-    "erstwuensche": 43,
-    "nachfrageProzent": 45
-  },
-  {
-    "year": "2025/26",
-    "name": "Marie-Curie-Gymnasium",
-    "url": "https://www.gymnasium-berlin.net/marie-curie-oberschule",
-    "ortsteil": "Wilmersdorf",
-    "plaetze": 128,
-    "erstwuensche": 53,
-    "nachfrageProzent": 41
-  },
-  {
-    "year": "2025/26",
-    "name": "Gymnasium Steglitz",
-    "url": "https://www.gymnasium-berlin.net/gymnasium-steglitz",
-    "ortsteil": "Steglitz",
-    "plaetze": 32,
-    "erstwuensche": 7,
-    "nachfrageProzent": 22
-  }
-]
+{
+  "lastUpdated": "2026-01-19T10:53:58.701Z",
+  "schools": [
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Hildegard-Wegscheider-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/hildegard-wegscheider-oberschule",
+      "ortsteil": "Grunewald",
+      "plaetze": 32,
+      "erstwuensche": 75,
+      "nachfrageProzent": 234
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Heinz-Berggruen-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/heinz-berggruen-schule",
+      "ortsteil": "Westend",
+      "plaetze": 64,
+      "erstwuensche": 99,
+      "nachfrageProzent": 155
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Friedrich-Ebert-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/friedrich-ebert-oberschule",
+      "ortsteil": "Wilmersdorf",
+      "plaetze": 128,
+      "erstwuensche": 156,
+      "nachfrageProzent": 122
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Schiller-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/schiller-oberschule",
+      "ortsteil": "Charlottenburg",
+      "plaetze": 188,
+      "erstwuensche": 213,
+      "nachfrageProzent": 113
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Herder-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/herder-oberschule",
+      "ortsteil": "Westend",
+      "plaetze": 64,
+      "erstwuensche": 67,
+      "nachfrageProzent": 105
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Wald-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/wald-oberschule",
+      "ortsteil": "Westend",
+      "plaetze": 128,
+      "erstwuensche": 110,
+      "nachfrageProzent": 86
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Sophie-Charlotte-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/sophie-charlotte-oberschule",
+      "ortsteil": "Charlottenburg",
+      "plaetze": 160,
+      "erstwuensche": 129,
+      "nachfrageProzent": 81
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Gottfried-Keller-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/gottfried-keller-oberschule",
+      "ortsteil": "Charlottenburg",
+      "plaetze": 160,
+      "erstwuensche": 94,
+      "nachfrageProzent": 59
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Walther-Rathenau-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/walther-rathenau-schule",
+      "ortsteil": "Grunewald",
+      "plaetze": 96,
+      "erstwuensche": 43,
+      "nachfrageProzent": 45
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "name": "Marie-Curie-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/marie-curie-oberschule",
+      "ortsteil": "Wilmersdorf",
+      "plaetze": 128,
+      "erstwuensche": 53,
+      "nachfrageProzent": 41
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "name": "Hermann-Hesse-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/hermann-hesse-oberschule",
+      "ortsteil": "Kreuzberg",
+      "plaetze": 96,
+      "erstwuensche": 146,
+      "nachfrageProzent": 152
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "name": "Dathe-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/dathe-oberschule",
+      "ortsteil": "Friedrichshain",
+      "plaetze": 64,
+      "erstwuensche": 96,
+      "nachfrageProzent": 150
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "name": "Heinrich-Hertz-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/heinrich-hertz-oberschule",
+      "ortsteil": "Friedrichshain",
+      "plaetze": 64,
+      "erstwuensche": 70,
+      "nachfrageProzent": 109
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "name": "Andreas-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/andreas-oberschule",
+      "ortsteil": "Friedrichshain",
+      "plaetze": 96,
+      "erstwuensche": 89,
+      "nachfrageProzent": 93
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "name": "Leibniz-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/leibniz-oberschule",
+      "ortsteil": "Kreuzberg",
+      "plaetze": 160,
+      "erstwuensche": 127,
+      "nachfrageProzent": 79
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "name": "Robert-Koch-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/robert-koch-gymnasium",
+      "ortsteil": "Kreuzberg",
+      "plaetze": 128,
+      "erstwuensche": 88,
+      "nachfrageProzent": 69
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Lichtenberg",
+      "name": "Barnim-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/barnim-oberschule",
+      "ortsteil": "Falkenberg",
+      "plaetze": 128,
+      "erstwuensche": 185,
+      "nachfrageProzent": 145
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Lichtenberg",
+      "name": "Immanuel-Kant-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/immanuel-kant-schule",
+      "ortsteil": "Rummelsburg",
+      "plaetze": 160,
+      "erstwuensche": 222,
+      "nachfrageProzent": 139
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Lichtenberg",
+      "name": "Johann-Gottfried-Herder-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/johann-gottfried-herder-oberschule",
+      "ortsteil": "Fennpfuhl",
+      "plaetze": 96,
+      "erstwuensche": 108,
+      "nachfrageProzent": 113
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Lichtenberg",
+      "name": "Hans-und-Hilde-Coppi-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/hans-und-hilde-coppi-oberschule",
+      "ortsteil": "Karlshorst",
+      "plaetze": 128,
+      "erstwuensche": 124,
+      "nachfrageProzent": 97
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Lichtenberg",
+      "name": "Manfred-von-Ardenne-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/manfred-von-ardenne-schule",
+      "ortsteil": "Alt-Hohenschönhausen",
+      "plaetze": 160,
+      "erstwuensche": 109,
+      "nachfrageProzent": 68
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Lichtenberg",
+      "name": "Gymnasium Allee der Kosmonauten",
+      "url": "https://www.gymnasium-berlin.net/gymnasium-allee-der-kosmonauten",
+      "ortsteil": "Lichtenberg",
+      "plaetze": 160,
+      "erstwuensche": 90,
+      "nachfrageProzent": 56
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Marzahn-Hellersdorf",
+      "name": "Otto-Nagel-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/otto-nagel-gymnasium",
+      "ortsteil": "Biesdorf",
+      "plaetze": 64,
+      "erstwuensche": 94,
+      "nachfrageProzent": 147
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Marzahn-Hellersdorf",
+      "name": "Melanchthon-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/melanchthon-schule",
+      "ortsteil": "Hellersdorf",
+      "plaetze": 94,
+      "erstwuensche": 114,
+      "nachfrageProzent": 121
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Marzahn-Hellersdorf",
+      "name": "Wilhelm-von-Siemens-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/wilhelm-von-siemens-oberschule",
+      "ortsteil": "Biesdorf",
+      "plaetze": 160,
+      "erstwuensche": 169,
+      "nachfrageProzent": 106
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Marzahn-Hellersdorf",
+      "name": "Gymnasium Kaulsdorf",
+      "url": "https://www.gymnasium-berlin.net/gymnasium-kaulsdorf",
+      "ortsteil": "Hellersdorf",
+      "plaetze": 160,
+      "erstwuensche": 128,
+      "nachfrageProzent": 80
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Marzahn-Hellersdorf",
+      "name": "Tagore-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/tagore-schule",
+      "ortsteil": "Marzahn",
+      "plaetze": 160,
+      "erstwuensche": 116,
+      "nachfrageProzent": 73
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Marzahn-Hellersdorf",
+      "name": "Sartre-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/sartre-oberschule",
+      "ortsteil": "Hellersdorf",
+      "plaetze": 196,
+      "erstwuensche": 99,
+      "nachfrageProzent": 51
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Mitte",
+      "name": "Lessing-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/lessing-gymnasium",
+      "ortsteil": "Wedding",
+      "plaetze": 64,
+      "erstwuensche": 85,
+      "nachfrageProzent": 133
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Mitte",
+      "name": "John-Lennon-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/john-lennon-gymnasium",
+      "ortsteil": "Mitte",
+      "plaetze": 128,
+      "erstwuensche": 166,
+      "nachfrageProzent": 130
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Mitte",
+      "name": "Max-Planck-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/max-planck-schule",
+      "ortsteil": "Mitte",
+      "plaetze": 160,
+      "erstwuensche": 163,
+      "nachfrageProzent": 102
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Mitte",
+      "name": "Diesterweg-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/diesterweg-schule",
+      "ortsteil": "Gesundbrunnen",
+      "plaetze": 128,
+      "erstwuensche": 95,
+      "nachfrageProzent": 74
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Mitte",
+      "name": "Gymnasium Tiergarten",
+      "url": "https://www.gymnasium-berlin.net/gymnasium-tiergarten",
+      "ortsteil": "Hansaviertel",
+      "plaetze": 128,
+      "erstwuensche": 87,
+      "nachfrageProzent": 68
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Mitte",
+      "name": "Rosalind-Franklin-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/13-gymnasium-mitte",
+      "ortsteil": "Moabit",
+      "plaetze": 128,
+      "erstwuensche": 64,
+      "nachfrageProzent": 50
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Neukölln",
+      "name": "Albrecht-Dürer-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/albrecht-duerer-gymnasium",
+      "ortsteil": "Neukölln",
+      "plaetze": 60,
+      "erstwuensche": 66,
+      "nachfrageProzent": 110
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Neukölln",
+      "name": "Hannah-Arendt-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/hannah-arendt-gymnasium",
+      "ortsteil": "Rudow",
+      "plaetze": 128,
+      "erstwuensche": 125,
+      "nachfrageProzent": 98
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Neukölln",
+      "name": "Albert-Einstein-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/albert-einstein-gymnasium",
+      "ortsteil": "Britz",
+      "plaetze": 192,
+      "erstwuensche": 173,
+      "nachfrageProzent": 90
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Neukölln",
+      "name": "Leonardo-da-Vinci-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/leonardo-da-vinci-gymnasium",
+      "ortsteil": "Buckow",
+      "plaetze": 150,
+      "erstwuensche": 130,
+      "nachfrageProzent": 87
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Neukölln",
+      "name": "Albert-Schweitzer-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/albert-schweitzer-schule",
+      "ortsteil": "Neukölln",
+      "plaetze": 90,
+      "erstwuensche": 69,
+      "nachfrageProzent": 77
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Neukölln",
+      "name": "Ernst-Abbe-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/ernst-abbe-schule",
+      "ortsteil": "Neukölln",
+      "plaetze": 120,
+      "erstwuensche": 79,
+      "nachfrageProzent": 66
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Pankow",
+      "name": "Heinrich-Schliemann-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/heinrich-schliemann-gymnasium",
+      "ortsteil": "Prenzlauer Berg",
+      "plaetze": 96,
+      "erstwuensche": 208,
+      "nachfrageProzent": 217
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Pankow",
+      "name": "Rosa-Luxemburg-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/rosa-luxemburg-gymnasium",
+      "ortsteil": "Pankow",
+      "plaetze": 64,
+      "erstwuensche": 102,
+      "nachfrageProzent": 159
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Pankow",
+      "name": "Käthe-Kollwitz-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/kaethe-kollwitz-oberschule",
+      "ortsteil": "Prenzlauer Berg",
+      "plaetze": 64,
+      "erstwuensche": 95,
+      "nachfrageProzent": 148
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Pankow",
+      "name": "Primo-Levi-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/primo-levi-schule",
+      "ortsteil": "Weißensee",
+      "plaetze": 128,
+      "erstwuensche": 186,
+      "nachfrageProzent": 145
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Pankow",
+      "name": "Max-Delbrück-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/max-delbrueck-schule",
+      "ortsteil": "Niederschönhausen",
+      "plaetze": 160,
+      "erstwuensche": 200,
+      "nachfrageProzent": 125
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Pankow",
+      "name": "Felix-Mendelssohn-Bartholdy-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/felix-mendelssohn-bartholdy-schule",
+      "ortsteil": "Prenzlauer Berg",
+      "plaetze": 224,
+      "erstwuensche": 273,
+      "nachfrageProzent": 122
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Pankow",
+      "name": "Carl-von-Ossietzky-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/carl-von-ossietzky-gymnasium",
+      "ortsteil": "Pankow",
+      "plaetze": 160,
+      "erstwuensche": 166,
+      "nachfrageProzent": 104
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Pankow",
+      "name": "Inge-Deutschkron-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/gymnasium-am-europasportpark",
+      "ortsteil": "Wilhelmsruh",
+      "plaetze": 160,
+      "erstwuensche": 138,
+      "nachfrageProzent": 86
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Pankow",
+      "name": "Robert-Havemann-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/robert-havemann-schule",
+      "ortsteil": "Karow",
+      "plaetze": 224,
+      "erstwuensche": 175,
+      "nachfrageProzent": 78
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Reinickendorf",
+      "name": "Humboldt-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/humboldt-gymnasium",
+      "ortsteil": "Tegel",
+      "plaetze": 96,
+      "erstwuensche": 115,
+      "nachfrageProzent": 120
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Reinickendorf",
+      "name": "Gabriele-von-Bülow-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/gabriele-von-buelow-gymnasium",
+      "ortsteil": "Tegel",
+      "plaetze": 160,
+      "erstwuensche": 183,
+      "nachfrageProzent": 114
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Reinickendorf",
+      "name": "Friedrich-Engels-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/friedrich-engels-gymnasium",
+      "ortsteil": "Reinickendorf",
+      "plaetze": 96,
+      "erstwuensche": 106,
+      "nachfrageProzent": 110
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Reinickendorf",
+      "name": "Bertha-von-Suttner-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/bertha-von-suttner-gymnasium",
+      "ortsteil": "Reinickendorf",
+      "plaetze": 96,
+      "erstwuensche": 98,
+      "nachfrageProzent": 102
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Reinickendorf",
+      "name": "Georg-Herwegh-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/georg-herwegh-gymnasium",
+      "ortsteil": "Hermsdorf",
+      "plaetze": 192,
+      "erstwuensche": 138,
+      "nachfrageProzent": 72
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Reinickendorf",
+      "name": "Romain-Rolland-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/romain-rolland-gymnasium",
+      "ortsteil": "Wittenau",
+      "plaetze": 128,
+      "erstwuensche": 85,
+      "nachfrageProzent": 66
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Reinickendorf",
+      "name": "Thomas-Mann-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/thomas-mann-gymnasium",
+      "ortsteil": "Märkisches Viertel",
+      "plaetze": 192,
+      "erstwuensche": 100,
+      "nachfrageProzent": 52
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Spandau",
+      "name": "Freiherr-vom-Stein-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/freiherr-vom-stein-gymnasium",
+      "ortsteil": "Spandau",
+      "plaetze": 128,
+      "erstwuensche": 130,
+      "nachfrageProzent": 102
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Spandau",
+      "name": "Carl-Friedrich-von-Siemens-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/carl-friedrich-von-siemens-oberschule",
+      "ortsteil": "Siemensstadt",
+      "plaetze": 128,
+      "erstwuensche": 110,
+      "nachfrageProzent": 86
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Spandau",
+      "name": "Lily-Braun-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/lily-braun-oberschule",
+      "ortsteil": "Spandau",
+      "plaetze": 128,
+      "erstwuensche": 108,
+      "nachfrageProzent": 84
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Spandau",
+      "name": "Kant-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/kant-gymnasium",
+      "ortsteil": "Spandau",
+      "plaetze": 128,
+      "erstwuensche": 100,
+      "nachfrageProzent": 78
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Spandau",
+      "name": "Hans-Carossa-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/hans-carossa-gymnasium",
+      "ortsteil": "Kladow",
+      "plaetze": 122,
+      "erstwuensche": 94,
+      "nachfrageProzent": 77
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Fichtenberg-Oberschule",
+      "url": "https://www.gymnasium-berlin.net/fichtenberg-oberschule",
+      "ortsteil": "Steglitz",
+      "plaetze": 128,
+      "erstwuensche": 215,
+      "nachfrageProzent": 168
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Schadow-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/schadow-gymnasium",
+      "ortsteil": "Zehlendorf",
+      "plaetze": 96,
+      "erstwuensche": 138,
+      "nachfrageProzent": 144
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Goethe-Gymnasium Lichterfelde",
+      "url": "https://www.gymnasium-berlin.net/goethe-oberschule",
+      "ortsteil": "Lichterfelde",
+      "plaetze": 128,
+      "erstwuensche": 148,
+      "nachfrageProzent": 116
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Beethoven-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/beethoven-schule",
+      "ortsteil": "Lankwitz",
+      "plaetze": 128,
+      "erstwuensche": 145,
+      "nachfrageProzent": 113
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Willi-Graf-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/willi-graf-gymnasium",
+      "ortsteil": "Lichterfelde",
+      "plaetze": 96,
+      "erstwuensche": 96,
+      "nachfrageProzent": 100
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Arndt-Gymnasium Dahlem",
+      "url": "https://www.gymnasium-berlin.net/arndt-gymnasium-dahlem",
+      "ortsteil": "Dahlem",
+      "plaetze": 96,
+      "erstwuensche": 89,
+      "nachfrageProzent": 93
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Lilienthal-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/lilienthal-gymnasium",
+      "ortsteil": "Lichterfelde",
+      "plaetze": 128,
+      "erstwuensche": 115,
+      "nachfrageProzent": 90
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Droste-Hülshoff-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/droste-huelshoff-schule",
+      "ortsteil": "Zehlendorf",
+      "plaetze": 128,
+      "erstwuensche": 111,
+      "nachfrageProzent": 87
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Dreilinden-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/dreilinden-gymnasium",
+      "ortsteil": "Nikolassee",
+      "plaetze": 128,
+      "erstwuensche": 98,
+      "nachfrageProzent": 77
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Werner-von-Siemens-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/werner-von-siemens-gymnasium",
+      "ortsteil": "Nikolassee",
+      "plaetze": 96,
+      "erstwuensche": 72,
+      "nachfrageProzent": 75
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Paulsen-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/paulsen-gymnasium",
+      "ortsteil": "Steglitz",
+      "plaetze": 128,
+      "erstwuensche": 91,
+      "nachfrageProzent": 71
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Hermann-Ehlers-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/hermann-ehlers-gymnasium",
+      "ortsteil": "Steglitz",
+      "plaetze": 96,
+      "erstwuensche": 56,
+      "nachfrageProzent": 58
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Steglitz-Zehlendorf",
+      "name": "Gymnasium Steglitz",
+      "url": "https://www.gymnasium-berlin.net/gymnasium-steglitz",
+      "ortsteil": "Steglitz",
+      "plaetze": 32,
+      "erstwuensche": 7,
+      "nachfrageProzent": 22
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Tempelhof-Schöneberg",
+      "name": "Paul-Natorp-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/paul-natorp-gymnasium",
+      "ortsteil": "Friedenau",
+      "plaetze": 128,
+      "erstwuensche": 155,
+      "nachfrageProzent": 121
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Tempelhof-Schöneberg",
+      "name": "Luise-Henriette-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/luise-henriette-oberschule",
+      "ortsteil": "Mariendorf",
+      "plaetze": 96,
+      "erstwuensche": 103,
+      "nachfrageProzent": 107
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Tempelhof-Schöneberg",
+      "name": "Rheingau-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/rheingau-gymnasium",
+      "ortsteil": "Friedenau",
+      "plaetze": 128,
+      "erstwuensche": 135,
+      "nachfrageProzent": 105
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Tempelhof-Schöneberg",
+      "name": "Georg-Büchner-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/georg-buechner-gymnasium",
+      "ortsteil": "Lichtenrade",
+      "plaetze": 96,
+      "erstwuensche": 96,
+      "nachfrageProzent": 100
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Tempelhof-Schöneberg",
+      "name": "Ulrich-von-Hutten-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/ulrich-von-hutten-gymnasium",
+      "ortsteil": "Lichtenrade",
+      "plaetze": 128,
+      "erstwuensche": 122,
+      "nachfrageProzent": 95
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Tempelhof-Schöneberg",
+      "name": "Askanisches Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/askanisches-gymnasium",
+      "ortsteil": "Tempelhof",
+      "plaetze": 128,
+      "erstwuensche": 110,
+      "nachfrageProzent": 86
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Tempelhof-Schöneberg",
+      "name": "Robert-Blum-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/robert-blum-gymnasium",
+      "ortsteil": "Schöneberg",
+      "plaetze": 128,
+      "erstwuensche": 103,
+      "nachfrageProzent": 80
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Tempelhof-Schöneberg",
+      "name": "Eckener-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/eckener-gymnasium",
+      "ortsteil": "Mariendorf",
+      "plaetze": 64,
+      "erstwuensche": 50,
+      "nachfrageProzent": 78
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Tempelhof-Schöneberg",
+      "name": "Rückert-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/rueckert-gymnasium",
+      "ortsteil": "Schöneberg",
+      "plaetze": 64,
+      "erstwuensche": 37,
+      "nachfrageProzent": 58
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Treptow-Köpenick",
+      "name": "Gerhart-Hauptmann-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/gerhart-hauptmann-gymnasium",
+      "ortsteil": "Friedrichshagen",
+      "plaetze": 128,
+      "erstwuensche": 167,
+      "nachfrageProzent": 130
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Treptow-Köpenick",
+      "name": "Archenhold-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/archenhold-gymnasium",
+      "ortsteil": "Niederschöneweide",
+      "plaetze": 128,
+      "erstwuensche": 125,
+      "nachfrageProzent": 98
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Treptow-Köpenick",
+      "name": "Gebrüder-Montgolfier-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/gebrueder-montgolfier-gymnasium",
+      "ortsteil": "Johannisthal",
+      "plaetze": 160,
+      "erstwuensche": 154,
+      "nachfrageProzent": 96
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Treptow-Köpenick",
+      "name": "Alexander-von-Humboldt-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/alexander-von-humboldt-gymnasium",
+      "ortsteil": "Köpenick",
+      "plaetze": 160,
+      "erstwuensche": 141,
+      "nachfrageProzent": 88
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Treptow-Köpenick",
+      "name": "Anne-Frank-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/anne-frank-gymnasium",
+      "ortsteil": "Altglienicke",
+      "plaetze": 160,
+      "erstwuensche": 129,
+      "nachfrageProzent": 80
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Treptow-Köpenick",
+      "name": "Emmy-Noether-Gymnasium",
+      "url": "https://www.gymnasium-berlin.net/emmy-noether-gymnasium",
+      "ortsteil": "Köpenick",
+      "plaetze": 128,
+      "erstwuensche": 81,
+      "nachfrageProzent": 63
+    },
+    {
+      "year": "2025/26",
+      "bezirk": "Treptow-Köpenick",
+      "name": "Gymnasium Baumschulenweg",
+      "url": "https://www.gymnasium-berlin.net/gymnasium-baumschulenweg",
+      "ortsteil": "Baumschulenweg",
+      "plaetze": 84,
+      "erstwuensche": 47,
+      "nachfrageProzent": 56
+    }
+  ]
+}
