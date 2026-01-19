@@ -321,10 +321,11 @@
             <th data-k="changeErstwuensche">Trend</th>
             <th data-k="nachfrageProzent">Quote (%)</th>
             <th data-k="abiturNote">Ø Abi</th>
+            <th>Besonderheiten</th>
           </tr>
         </thead>
         <tbody id="rows">
-          <tr><td colspan="8" class="no-results">Lade Daten...</td></tr>
+          <tr><td colspan="9" class="no-results">Lade Daten...</td></tr>
         </tbody>
       </table>
     </div>
@@ -356,6 +357,71 @@
     if (n > 0) return `<span style="color:#c92a2a">↑ ${n}</span>`; // Increased demand (harder)
     if (n < 0) return `<span style="color:#2b8a3e">↓ ${Math.abs(n)}</span>`; // Decreased demand
     return `<span style="color:#868e96">→ 0</span>`;
+  }
+
+  function getOpenDayStatus(dateStr) {
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    
+    let inner = "";
+    if (dateStr) {
+      const d = new Date(dateStr);
+      if (!isNaN(d.getTime())) {
+        const isFuture = d >= today;
+        const color = isFuture ? "#2b8a3e" : "#c92a2a"; // Green vs Red
+        const icon = isFuture ? "✓" : "✕";
+        const title = isFuture 
+          ? `Tag der offenen Tür: ${d.toLocaleDateString("de-DE")}` 
+          : `Tag der offenen Tür war am ${d.toLocaleDateString("de-DE")}`;
+        
+        inner = `<div title="${title}" style="
+          width: 20px; 
+          height: 20px; 
+          background: ${color}; 
+          color: white; 
+          border-radius: 4px; 
+          display: flex; 
+          align-items: center; 
+          justify-content: center; 
+          font-size: 14px; 
+          font-weight: bold; 
+          cursor: help;
+          line-height: 1;
+        ">${icon}</div>`;
+      }
+    }
+    
+    return `<div style="width: 20px; margin-right: 12px; flex-shrink: 0; display: flex; justify-content: center;">${inner}</div>`;
+  }
+
+  let courseCounts = {};
+  let totalSchoolsWithCourses = 0;
+
+  function analyzeCourses() {
+    courseCounts = {};
+    totalSchoolsWithCourses = 0;
+    
+    rawData.schools.forEach(s => {
+      if (s.courses && s.courses.length > 0) {
+        totalSchoolsWithCourses++;
+        s.courses.forEach(c => {
+          const name = c.trim(); // Keep original case for display, but normalize for counting if needed
+          courseCounts[name] = (courseCounts[name] || 0) + 1;
+        });
+      }
+    });
+    console.log("Course Counts:", courseCounts);
+  }
+
+  function getRareCourses(schoolCourses) {
+    if (!schoolCourses) return [];
+    // Threshold: a course is "rare" if offered by less than 25% of schools
+    const threshold = Math.max(1, Math.floor(totalSchoolsWithCourses * 0.25)); 
+    
+    return schoolCourses.filter(c => {
+      const count = courseCounts[c.trim()] || 0;
+      return count <= threshold;
+    });
   }
 
   function render() {
@@ -424,14 +490,17 @@
 
     const tbody = document.querySelector("#rows");
     if (filtered.length === 0) {
-      tbody.innerHTML = '<tr><td colspan="8" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="9" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
       return;
     }
 
     tbody.innerHTML = filtered.map(r => `
       <tr>
         <td>
-          <a href="${r.url}" class="school-name" target="_blank" rel="noreferrer">${r.name}</a>
+          <div style="display:flex; align-items:center;">
+            ${getOpenDayStatus(r.openDayDate)}
+            <a href="${r.url}" class="school-name" target="_blank" rel="noreferrer">${r.name}</a>
+          </div>
         </td>
         <td>${r.bezirk}</td>
         <td>${r.ortsteil}</td>
@@ -444,6 +513,13 @@
           </span>
         </td>
         <td>${r.abiturNote ? r.abiturNote.toFixed(2) : '-'}</td>
+        <td>
+          <div style="display:flex; flex-wrap:wrap; gap:4px; max-width:250px;">
+            ${getRareCourses(r.courses).map(c => 
+              `<span style="background:#e7f5ff; color:#1864ab; padding:2px 6px; border-radius:4px; font-size:0.75rem;">${c}</span>`
+            ).join("")}
+          </div>
+        </td>
       </tr>
     `).join("");
   }
@@ -509,6 +585,8 @@
           "Letztes Update: " + date.toLocaleString("de-DE");
       }
       
+      analyzeCourses();
+      
       // Load saved state (Bezirk & Q)
       const savedBezirk = localStorage.getItem("filter_bezirk");
       if (savedBezirk) document.querySelector("#bezirk").value = savedBezirk;
@@ -520,7 +598,7 @@
     } catch (e) {
       console.error(e);
       document.querySelector("#rows").innerHTML = 
-        '<tr><td colspan="8" class="no-results">Fehler beim Laden der Daten. Bitte führen Sie den Scraper aus.</td></tr>';
+        '<tr><td colspan="9" class="no-results">Fehler beim Laden der Daten. Bitte führen Sie den Scraper aus.</td></tr>';
     }
   }
 
