@@ -301,15 +301,48 @@
     return `<span style="color:#868e96">→ 0</span>`;
   }
 
+  function parseOrtsteilFilter(input) {
+    if (!input) return { includes: [], excludes: [] };
+    const terms = input.split(",").map(t => normalize(t)).filter(t => t.length > 0);
+    const includes = [];
+    const excludes = [];
+    terms.forEach(t => {
+      if (t.startsWith("!")) {
+        const clean = t.substring(1).trim();
+        if (clean) excludes.push(clean);
+      } else {
+        includes.push(t);
+      }
+    });
+    return { includes, excludes };
+  }
+
   function render() {
     const bezirkFilter = document.querySelector("#bezirk").value;
-    const ortsteilFilter = normalize(document.querySelector("#ortsteil").value);
+    const ortsteilInput = document.querySelector("#ortsteil").value;
     const qFilter = normalize(document.querySelector("#q").value);
+
+    // Save state
+    localStorage.setItem("filter_bezirk", bezirkFilter);
+    localStorage.setItem("filter_ortsteil", ortsteilInput);
+    localStorage.setItem("filter_q", qFilter);
+
+    const { includes, excludes } = parseOrtsteilFilter(ortsteilInput);
 
     let filtered = rawData.schools.filter(r => {
       if (bezirkFilter && r.bezirk !== bezirkFilter) return false;
-      if (ortsteilFilter && !normalize(r.ortsteil).includes(ortsteilFilter)) return false;
       if (qFilter && !normalize(r.name).includes(qFilter)) return false;
+
+      const ortsteilNorm = normalize(r.ortsteil);
+      
+      // Exclusion check (must NOT match any exclude term)
+      if (excludes.some(ex => ortsteilNorm.includes(ex))) return false;
+
+      // Inclusion check (must match AT LEAST ONE include term, if any exist)
+      if (includes.length > 0) {
+        if (!includes.some(inc => ortsteilNorm.includes(inc))) return false;
+      }
+
       return true;
     });
 
@@ -389,6 +422,16 @@
           "Letztes Update: " + date.toLocaleString("de-DE");
       }
       
+      // Load saved state
+      const savedBezirk = localStorage.getItem("filter_bezirk");
+      if (savedBezirk) document.querySelector("#bezirk").value = savedBezirk;
+      
+      const savedOrtsteil = localStorage.getItem("filter_ortsteil");
+      if (savedOrtsteil) document.querySelector("#ortsteil").value = savedOrtsteil;
+      
+      const savedQ = localStorage.getItem("filter_q");
+      if (savedQ) document.querySelector("#q").value = savedQ;
+
       render();
     } catch (e) {
       console.error(e);
