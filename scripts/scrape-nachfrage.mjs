@@ -7,13 +7,28 @@ function log(msg) {
   process.stderr.write(`[${new Date().toISOString()}] ${msg}\n`);
 }
 
-// IMPORTANT: do not name a variable `URL` (it shadows Node's global URL constructor).
-const SOURCE_URL = "https://www.gymnasium-berlin.net/nachfrage";
-const ABITUR_URL = "https://www.gymnasium-berlin.net/abiturdaten";
+const SOURCES = [
+  { 
+    type: "Gymnasium", 
+    url: "https://www.gymnasium-berlin.net/nachfrage", 
+    domain: "https://www.gymnasium-berlin.net", 
+    abiturUrl: "https://www.gymnasium-berlin.net/abiturdaten",
+    districtSelector: "#edit-bezirk",
+    districtParam: "bezirk"
+  },
+  { 
+    type: "ISS", 
+    url: "https://www.sekundarschulen-berlin.de/nachfrage", 
+    domain: "https://www.sekundarschulen-berlin.de", 
+    abiturUrl: "https://www.sekundarschulen-berlin.de/abitur",
+    districtSelector: "#edit-field-bezirk-value",
+    districtParam: "field_bezirk_value"
+  }
+];
 
-async function fetchGrades() {
-  log("Fetching Abitur data…");
-  const res = await fetch(ABITUR_URL);
+async function fetchGrades(source) {
+  log(`Fetching Abitur data for ${source.type}…`);
+  const res = await fetch(source.abiturUrl);
   if (!res.ok) {
     log(`Failed to fetch Abitur data: ${res.status}`);
     return new Map();
@@ -25,109 +40,115 @@ async function fetchGrades() {
 
   $("tr").each((_, tr) => {
     const tds = $(tr).find("td");
-    // Expecting at least: Counter, Name (with link), Grade
     if (tds.length < 3) return;
 
-    const titleCell = $(tds[1]); // 2nd column usually has the name link
+    const titleCell = $(tds[1]);
     const a = titleCell.find("a").first();
     const href = (a.attr("href") || "").trim();
     if (!href) return;
 
-    // Grade is usually in the 3rd column (index 2)
-    // The text might be "1,4" -> replace comma with dot
     let gradeText = $(tds[2]).text().trim().replace(",", ".");
     const grade = parseFloat(gradeText);
 
     if (grade > 0) {
-       const absUrl = href.startsWith("http") ? href : `https://www.gymnasium-berlin.net${href}`;
+       const absUrl = href.startsWith("http") ? href : `${source.domain}${href}`;
        grades.set(absUrl, grade);
     }
   });
 
-  log(`Found ${grades.size} schools with Abitur grades.`);
+  log(`Found ${grades.size} ${source.type} schools with Abitur grades.`);
   return grades;
 }
 
 async function main() {
   log(`Node ${process.version} starting… cwd=${process.cwd()}`);
 
-  // Fetch grades first
-  const gradesMap = await fetchGrades();
-
-  log("Fetching main page to find districts…");
-
-  const mainRes = await fetch(SOURCE_URL);
-  if (!mainRes.ok) throw new Error(`Fetch failed: ${mainRes.status}`);
-  const mainHtml = await mainRes.text();
-  const $main = cheerio.load(mainHtml);
-
-  const districts = [];
-  $main("#edit-bezirk option").each((_, opt) => {
-    const val = $main(opt).val();
-    if (val && val !== "All") {
-      districts.push(val);
-    }
-  });
-
-  log(`Found ${districts.length} districts: ${districts.join(", ")}`);
-
   const allRows = [];
 
-  for (const bezirk of districts) {
-    const url = `${SOURCE_URL}?bezirk=${encodeURIComponent(bezirk)}`;
-    log(`Fetching ${bezirk}…`);
-    const res = await fetch(url);
-    if (!res.ok) {
-      log(`Failed to fetch ${bezirk}: ${res.status}`);
-      continue;
+  for (const source of SOURCES) {
+    log(`--- Processing ${source.type} ---`);
+    
+    // Fetch grades first
+    const gradesMap = await fetchGrades(source);
+
+    log(`Fetching main page to find districts for ${source.type}…`);
+
+    const mainRes = await fetch(source.url);
+    if (!mainRes.ok) {
+        log(`Failed to fetch main page for ${source.type}: ${mainRes.status}`);
+        continue;
     }
-    const html = await res.text();
-    const $ = cheerio.load(html);
+    const mainHtml = await mainRes.text();
+    const $main = cheerio.load(mainHtml);
 
-    const trs = $("tr");
-    let count = 0;
-
-    trs.each((_, tr) => {
-      const tds = $(tr).find("td");
-      if (tds.length < 4) return;
-
-      const titleCell = $(tds[0]);
-      const a = titleCell.find("a").first();
-      const name = a.text().trim();
-      const href = (a.attr("href") || "").trim();
-      if (!name || !href) return;
-
-      const titleText = titleCell.text().replace(/\s+/g, " ").trim();
-      const ortsteil = titleText.replace(name, "").trim();
-
-      const plaetze = Number($(tds[1]).text().trim());
-      const erstwuensche = Number($(tds[2]).text().trim());
-      const prozent = Number($(tds[3]).text().trim());
-
-      if (!Number.isFinite(plaetze) || !Number.isFinite(erstwuensche) || !Number.isFinite(prozent)) return;
-
-      const absUrl = href.startsWith("http") ? href : `https://www.gymnasium-berlin.net${href}`;
-      
-      // Look up grade
-      const abiturNote = gradesMap.get(absUrl) || null;
-
-      allRows.push({
-        year: "2025/26",
-        bezirk,
-        name,
-        url: absUrl,
-        ortsteil,
-        plaetze,
-        erstwuensche,
-        nachfrageProzent: prozent,
-        abiturNote // Added field
-      });
-      count++;
+    const districts = [];
+    // Use configured selector
+    $main(`${source.districtSelector} option`).each((_, opt) => {
+      const val = $main(opt).val();
+      if (val && val !== "All") {
+        districts.push(val);
+      }
     });
-    log(`  -> Found ${count} schools in ${bezirk}`);
+
+    log(`Found ${districts.length} districts: ${districts.join(", ")}`);
+
+    for (const bezirk of districts) {
+      const url = `${source.url}?${source.districtParam}=${encodeURIComponent(bezirk)}`;
+      // log(`Fetching ${bezirk}…`); // Reduced logging
+      const res = await fetch(url);
+      if (!res.ok) {
+        log(`Failed to fetch ${bezirk}: ${res.status}`);
+        continue;
+      }
+      const html = await res.text();
+      const $ = cheerio.load(html);
+
+      const trs = $("tr");
+      let count = 0;
+
+      trs.each((_, tr) => {
+        const tds = $(tr).find("td");
+        if (tds.length < 4) return;
+
+        const titleCell = $(tds[0]);
+        const a = titleCell.find("a").first();
+        const name = a.text().trim();
+        const href = (a.attr("href") || "").trim();
+        if (!name || !href) return;
+
+        const titleText = titleCell.text().replace(/\s+/g, " ").trim();
+        const ortsteil = titleText.replace(name, "").trim();
+
+        const plaetze = Number($(tds[1]).text().trim());
+        const erstwuensche = Number($(tds[2]).text().trim());
+        const prozent = Number($(tds[3]).text().trim());
+
+        if (!Number.isFinite(plaetze) || !Number.isFinite(erstwuensche) || !Number.isFinite(prozent)) return;
+
+        const absUrl = href.startsWith("http") ? href : `${source.domain}${href}`;
+        
+        // Look up grade
+        const abiturNote = gradesMap.get(absUrl) || null;
+
+        allRows.push({
+          year: "2025/26",
+          schoolType: source.type,
+          bezirk,
+          name,
+          url: absUrl,
+          ortsteil,
+          plaetze,
+          erstwuensche,
+          nachfrageProzent: prozent,
+          abiturNote // Added field
+        });
+        count++;
+      });
+      // log(`  -> Found ${count} schools in ${bezirk}`);
+    }
   }
 
-  log(`Parsed ${allRows.length} rows total across all districts`);
+  log(`Parsed ${allRows.length} rows total across all sources`);
   log("Fetching detailed historical data for each school (this may take a while)…");
 
   // Fetch details for each school to get previous year's data
@@ -251,9 +272,6 @@ async function main() {
 
       if (languagesRaw) {
         school.languagesRaw = languagesRaw;
-        // Simple parsing: split by comma or slash? Usually comma separated or descriptive text.
-        // Example: "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Latein"
-        // Let's store raw for now, maybe parse in frontend or improve here later.
       }
 
       if (coursesRaw) {
@@ -273,10 +291,6 @@ async function main() {
       // Try to find the section by ID first to be safe
       const tdotHeader = $("a[name='Tdot']");
       if (tdotHeader.length > 0) {
-        // The date is usually in a view-content table following this header
-        // We can search for the class "date-display-single" globally or scoped
-        // Let's search globally but prioritize valid future dates if multiple?
-        // Actually, on the school page, there should be only one main Tdot event usually.
         
         const dateSpan = $("span.date-display-single").first();
         if (dateSpan.length > 0) {

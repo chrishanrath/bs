@@ -293,11 +293,12 @@
         <input id="q" placeholder="Name der Schule..." />
       </div>
 
-      <div class="form-group" style="justify-content: flex-end;">
-        <label class="checkbox-item" style="padding: 10px 0;">
-          <input type="checkbox" id="future-only" />
-          Nur zukünftige TdoT
-        </label>
+      <div class="form-group" style="justify-content: flex-end; align-items: flex-start;">
+        <label style="margin-bottom:8px;">Schultyp</label>
+        <div style="display:flex; gap:15px;">
+          <label class="checkbox-item"><input type="checkbox" name="schoolType" value="Gymnasium" checked> Gymnasium</label>
+          <label class="checkbox-item"><input type="checkbox" name="schoolType" value="ISS" checked> ISS</label>
+        </div>
       </div>
     </div>
 
@@ -324,7 +325,8 @@
       <table>
         <thead>
           <tr>
-            <th data-k="name">Gymnasium</th>
+            <th data-k="name">Gymnasium / ISS</th>
+            <th data-k="schoolType">Typ</th>
             <th data-k="bezirk">Bezirk</th>
             <th data-k="ortsteil">Ortsteil</th>
             <th data-k="openDayDate">TdoT</th>
@@ -457,7 +459,9 @@
   function render() {
     const bezirkFilter = document.querySelector("#bezirk").value;
     const qFilter = normalize(document.querySelector("#q").value);
-    const futureOnly = document.querySelector("#future-only").checked;
+    
+    // Get checked School Types
+    const checkedTypes = Array.from(document.querySelectorAll("input[name='schoolType']:checked")).map(cb => cb.value);
 
     const today = new Date();
     today.setHours(0,0,0,0);
@@ -480,22 +484,19 @@
     // Save state
     localStorage.setItem("filter_bezirk", bezirkFilter);
     localStorage.setItem("filter_q", qFilter);
-    localStorage.setItem("filter_future_only", futureOnly);
     localStorage.setItem("filter_ortsteil_selection", JSON.stringify(selectedOrtsteile));
+    localStorage.setItem("filter_school_type", JSON.stringify(checkedTypes));
 
     let filtered = rawData.schools.filter(r => {
+      // Filter by School Type (default to Gymnasium if field missing for backward compat)
+      const type = r.schoolType || "Gymnasium";
+      if (!checkedTypes.includes(type)) return false;
+
       if (bezirkFilter && r.bezirk !== bezirkFilter) return false;
       if (qFilter && !normalize(r.name).includes(qFilter)) return false;
       
       // Filter by checkbox selection
       if (!selectedOrtsteile.includes(r.ortsteil)) return false;
-
-      // Filter by future Open Day
-      if (futureOnly) {
-        if (!r.openDayDate) return false;
-        const d = new Date(r.openDayDate);
-        if (isNaN(d.getTime()) || d < today) return false;
-      }
 
       return true;
     });
@@ -540,7 +541,7 @@
 
     const tbody = document.querySelector("#rows");
     if (filtered.length === 0) {
-      tbody.innerHTML = '<tr><td colspan="11" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="12" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
       return;
     }
 
@@ -552,6 +553,7 @@
             <a href="${r.url}" class="school-name" target="_blank" rel="noreferrer">${r.name}</a>
           </div>
         </td>
+        <td><span style="font-size:0.8rem; padding:2px 4px; background:#f1f3f5; border-radius:4px;">${r.schoolType || 'Gymnasium'}</span></td>
         <td>${r.bezirk}</td>
         <td>${r.ortsteil}</td>
         <td style="font-size:0.9rem; white-space:nowrap;">${formatDateShort(r.openDayDate)}</td>
@@ -646,8 +648,15 @@
       const savedQ = localStorage.getItem("filter_q");
       if (savedQ) document.querySelector("#q").value = savedQ;
 
-      const savedFutureOnly = localStorage.getItem("filter_future_only") === "true";
-      document.querySelector("#future-only").checked = savedFutureOnly;
+      const savedTypes = localStorage.getItem("filter_school_type");
+      if (savedTypes) {
+        try {
+          const types = JSON.parse(savedTypes);
+          document.querySelectorAll("input[name='schoolType']").forEach(cb => {
+            cb.checked = types.includes(cb.value);
+          });
+        } catch(e) {}
+      }
 
       render();
     } catch (e) {
@@ -666,7 +675,11 @@
     });
   });
 
-  ["#q","#bezirk","#future-only"].forEach(sel => {
+  document.querySelectorAll("input[name='schoolType']").forEach(cb => {
+    cb.addEventListener("change", render);
+  });
+
+  ["#q","#bezirk"].forEach(sel => {
     document.querySelector(sel).addEventListener(sel === "#q" ? "input" : "change", render);
   });
 
