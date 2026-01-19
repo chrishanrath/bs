@@ -438,12 +438,12 @@
   }
 
   function getStrategyBadge(percentage) {
-    if (percentage >= 100) {
-      return `<span style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75rem; font-weight:bold; background:#ffe3e3; color:#c92a2a;">Nur Erstwunsch</span>`;
-    } else if (percentage >= 90) {
-      return `<span style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75rem; font-weight:bold; background:#fff3bf; color:#d05d00;">Risiko</span>`;
+    if (percentage > 100) {
+      return `<span title="Nur als Erstwunsch (The Reach) geeignet. Als Zweitwunsch zwecklos, da Plätze bereits in Runde 1 voll." style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75rem; font-weight:bold; background:#ffe3e3; color:#c92a2a; cursor:help;">Erstwunsch</span>`;
+    } else if (percentage >= 85) {
+      return `<span title="Idealer 'Anchor' für den Zweitwunsch. Hohe Chance, nach der ersten Vergabe noch Plätze frei zu haben." style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75rem; font-weight:bold; background:#d3f9d8; color:#2b8a3e; cursor:help;">Zweitwunsch (Anchor)</span>`;
     } else {
-      return `<span style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75rem; font-weight:bold; background:#d3f9d8; color:#2b8a3e;">Mögl. Zweitwunsch</span>`;
+      return `<span title="Gutes 'Safety Net' für den Drittwunsch. Bietet fast garantierte Aufnahme." style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75rem; font-weight:bold; background:#e7f5ff; color:#1864ab; cursor:help;">Safety Net</span>`;
     }
   }
 
