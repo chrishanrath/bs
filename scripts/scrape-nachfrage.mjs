@@ -9,9 +9,51 @@ function log(msg) {
 
 // IMPORTANT: do not name a variable `URL` (it shadows Node's global URL constructor).
 const SOURCE_URL = "https://www.gymnasium-berlin.net/nachfrage";
+const ABITUR_URL = "https://www.gymnasium-berlin.net/abiturdaten";
+
+async function fetchGrades() {
+  log("Fetching Abitur data…");
+  const res = await fetch(ABITUR_URL);
+  if (!res.ok) {
+    log(`Failed to fetch Abitur data: ${res.status}`);
+    return new Map();
+  }
+
+  const html = await res.text();
+  const $ = cheerio.load(html);
+  const grades = new Map();
+
+  $("tr").each((_, tr) => {
+    const tds = $(tr).find("td");
+    // Expecting at least: Counter, Name (with link), Grade
+    if (tds.length < 3) return;
+
+    const titleCell = $(tds[1]); // 2nd column usually has the name link
+    const a = titleCell.find("a").first();
+    const href = (a.attr("href") || "").trim();
+    if (!href) return;
+
+    // Grade is usually in the 3rd column (index 2)
+    // The text might be "1,4" -> replace comma with dot
+    let gradeText = $(tds[2]).text().trim().replace(",", ".");
+    const grade = parseFloat(gradeText);
+
+    if (grade > 0) {
+       const absUrl = href.startsWith("http") ? href : `https://www.gymnasium-berlin.net${href}`;
+       grades.set(absUrl, grade);
+    }
+  });
+
+  log(`Found ${grades.size} schools with Abitur grades.`);
+  return grades;
+}
 
 async function main() {
   log(`Node ${process.version} starting… cwd=${process.cwd()}`);
+
+  // Fetch grades first
+  const gradesMap = await fetchGrades();
+
   log("Fetching main page to find districts…");
 
   const mainRes = await fetch(SOURCE_URL);
@@ -65,6 +107,9 @@ async function main() {
       if (!Number.isFinite(plaetze) || !Number.isFinite(erstwuensche) || !Number.isFinite(prozent)) return;
 
       const absUrl = href.startsWith("http") ? href : `https://www.gymnasium-berlin.net${href}`;
+      
+      // Look up grade
+      const abiturNote = gradesMap.get(absUrl) || null;
 
       allRows.push({
         year: "2025/26",
@@ -74,7 +119,8 @@ async function main() {
         ortsteil,
         plaetze,
         erstwuensche,
-        nachfrageProzent: prozent
+        nachfrageProzent: prozent,
+        abiturNote // Added field
       });
       count++;
     });

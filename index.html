@@ -265,10 +265,11 @@
             <th data-k="plaetze">Plätze</th>
             <th data-k="erstwuensche">Wünsche</th>
             <th data-k="nachfrageProzent">Quote (%)</th>
+            <th data-k="abiturNote">Ø Abi</th>
           </tr>
         </thead>
         <tbody id="rows">
-          <tr><td colspan="6" class="no-results">Lade Daten...</td></tr>
+          <tr><td colspan="7" class="no-results">Lade Daten...</td></tr>
         </tbody>
       </table>
     </div>
@@ -305,10 +306,19 @@
     });
 
     filtered.sort((a,b) => {
-      const av = a[sortKey], bv = b[sortKey];
+      let av = a[sortKey];
+      let bv = b[sortKey];
+
+      // Handle nulls/undefined for numeric fields
+      if (sortKey === "abiturNote") {
+        if (av == null) av = Infinity; // Push nulls to the end for ASC, start for DESC (reversed below)
+        if (bv == null) bv = Infinity;
+      }
+      
       const cmp = (typeof av === "number" && typeof bv === "number")
         ? (av - bv)
         : String(av).localeCompare(String(bv), "de");
+      
       return sortDir === "asc" ? cmp : -cmp;
     });
 
@@ -324,7 +334,7 @@
 
     const tbody = document.querySelector("#rows");
     if (filtered.length === 0) {
-      tbody.innerHTML = '<tr><td colspan="6" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="7" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
       return;
     }
 
@@ -342,6 +352,7 @@
             ${r.nachfrageProzent}%
           </span>
         </td>
+        <td>${r.abiturNote ? r.abiturNote.toFixed(2) : '-'}</td>
       </tr>
     `).join("");
   }
@@ -371,7 +382,7 @@
     } catch (e) {
       console.error(e);
       document.querySelector("#rows").innerHTML = 
-        '<tr><td colspan="6" class="no-results">Fehler beim Laden der Daten. Bitte führen Sie den Scraper aus.</td></tr>';
+        '<tr><td colspan="7" class="no-results">Fehler beim Laden der Daten. Bitte führen Sie den Scraper aus.</td></tr>';
     }
   }
 
