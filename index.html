@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gymnasium Nachfrage Berlin (V1)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; }
+    header { display:flex; gap:12px; flex-wrap:wrap; align-items:end; }
+    label { display:flex; flex-direction:column; gap:6px; font-size:14px; }
+    select, input { padding:8px; font-size:14px; }
+    table { width:100%; border-collapse: collapse; margin-top: 16px; }
+    th, td { text-align:left; padding:10px; border-bottom:1px solid #ddd; }
+    th { cursor:pointer; user-select:none; }
+    .muted { color:#666; font-size: 13px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Nachfrage nach Gymnasien (Berlin)</h1>
+
+  <header>
+    <label>
+      Ortsteil
+      <input id="ortsteil" placeholder="z. B. Prenzlauer Berg" />
+    </label>
+
+    <label>
+      Suche
+      <input id="q" placeholder="Schulname enthält …" />
+    </label>
+  </header>
+
+  <div class="muted" id="meta"></div>
+
+  <table>
+    <thead>
+      <tr>
+        <th data-k="name">Gymnasium</th>
+        <th data-k="ortsteil">Ortsteil</th>
+        <th data-k="plaetze">Plätze</th>
+        <th data-k="erstwuensche">1. Wünsche</th>
+        <th data-k="nachfrageProzent">in %</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+<script>
+  let data = [];
+  let sortKey = "nachfrageProzent";
+  let sortDir = "desc";
+
+  function normalize(s){ return (s || "").toLowerCase().trim(); }
+
+  function render() {
+    const ortsteil = normalize(document.querySelector("#ortsteil").value);
+    const q = normalize(document.querySelector("#q").value);
+
+    let filtered = data.filter(r => {
+      if (ortsteil && !normalize(r.ortsteil).includes(ortsteil)) return false;
+      if (q && !normalize(r.name).includes(q)) return false;
+      return true;
+    });
+
+    filtered.sort((a,b) => {
+      const av = a[sortKey], bv = b[sortKey];
+      const cmp = (typeof av === "number" && typeof bv === "number")
+        ? (av - bv)
+        : String(av).localeCompare(String(bv), "de");
+      return sortDir === "asc" ? cmp : -cmp;
+    });
+
+    document.querySelector("#meta").textContent =
+      `${filtered.length} Einträge (Sortierung: ${sortKey} ${sortDir})`;
+
+    const tbody = document.querySelector("#rows");
+    tbody.innerHTML = filtered.map(r => `
+      <tr>
+        <td><a href="${r.url}" target="_blank" rel="noreferrer">${r.name}</a></td>
+        <td>${r.ortsteil}</td>
+        <td>${r.plaetze}</td>
+        <td>${r.erstwuensche}</td>
+        <td>${r.nachfrageProzent}</td>
+      </tr>
+    `).join("");
+  }
+
+  async function init() {
+    data = await fetch("./data/nachfrage-2025-26.json").then(r => r.json());
+    render();
+  }
+
+  document.querySelectorAll("th[data-k]").forEach(th => {
+    th.addEventListener("click", () => {
+      const k = th.getAttribute("data-k");
+      if (sortKey === k) sortDir = (sortDir === "asc" ? "desc" : "asc");
+      else { sortKey = k; sortDir = "desc"; }
+      render();
+    });
+  });
+
+  ["#ortsteil","#q"].forEach(sel => {
+    document.querySelector(sel).addEventListener("input", render);
+  });
+
+  init();
+</script>
+</body>
+</html>
