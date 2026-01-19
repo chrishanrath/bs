@@ -292,6 +292,13 @@
         <label for="q">Schule suchen</label>
         <input id="q" placeholder="Name der Schule..." />
       </div>
+
+      <div class="form-group" style="justify-content: flex-end;">
+        <label class="checkbox-item" style="padding: 10px 0;">
+          <input type="checkbox" id="future-only" />
+          Nur zukünftige TdoT
+        </label>
+      </div>
     </div>
 
     <div class="stats" id="stats-container">
@@ -427,6 +434,10 @@
   function render() {
     const bezirkFilter = document.querySelector("#bezirk").value;
     const qFilter = normalize(document.querySelector("#q").value);
+    const futureOnly = document.querySelector("#future-only").checked;
+
+    const today = new Date();
+    today.setHours(0,0,0,0);
 
     // Get checked Ortsteile
     const checkedBoxes = Array.from(document.querySelectorAll("input[name='ortsteil']:checked"));
@@ -446,15 +457,22 @@
     // Save state
     localStorage.setItem("filter_bezirk", bezirkFilter);
     localStorage.setItem("filter_q", qFilter);
+    localStorage.setItem("filter_future_only", futureOnly);
     localStorage.setItem("filter_ortsteil_selection", JSON.stringify(selectedOrtsteile));
 
     let filtered = rawData.schools.filter(r => {
       if (bezirkFilter && r.bezirk !== bezirkFilter) return false;
       if (qFilter && !normalize(r.name).includes(qFilter)) return false;
       
-      // Filter by checkbox selection (exact match on normalized value to be safe, or just value)
-      // Since we generate values from data, exact match should work.
+      // Filter by checkbox selection
       if (!selectedOrtsteile.includes(r.ortsteil)) return false;
+
+      // Filter by future Open Day
+      if (futureOnly) {
+        if (!r.openDayDate) return false;
+        const d = new Date(r.openDayDate);
+        if (isNaN(d.getTime()) || d < today) return false;
+      }
 
       return true;
     });
@@ -594,6 +612,9 @@
       const savedQ = localStorage.getItem("filter_q");
       if (savedQ) document.querySelector("#q").value = savedQ;
 
+      const savedFutureOnly = localStorage.getItem("filter_future_only") === "true";
+      document.querySelector("#future-only").checked = savedFutureOnly;
+
       render();
     } catch (e) {
       console.error(e);
@@ -611,8 +632,8 @@
     });
   });
 
-  ["#q","#bezirk"].forEach(sel => {
-    document.querySelector(sel).addEventListener(sel === "#bezirk" ? "change" : "input", render);
+  ["#q","#bezirk","#future-only"].forEach(sel => {
+    document.querySelector(sel).addEventListener(sel === "#q" ? "input" : "change", render);
   });
 
   init();

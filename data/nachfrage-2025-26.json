@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19T13:20:52.700Z",
+  "lastUpdated": "2026-01-19T13:40:43.092Z",
   "schools": [
     {
       "year": "2025/26",
@@ -13,7 +13,23 @@
       "abiturNote": 2.25,
       "previousYearErstwuensche": 55,
       "changeErstwuensche": 20,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Japanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Chemie, Deutsch, Englisch, Französisch, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Musik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Musik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-16",
+      "openDayRaw": "Freitag, 16. Januar 2026 - 15:30 bis 18:30"
     },
     {
       "year": "2025/26",
@@ -27,7 +43,24 @@
       "abiturNote": 1.87,
       "previousYearErstwuensche": 62,
       "changeErstwuensche": 37,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S2 Englisch/Latein, 3. Fremdsprache Alt-Griechisch, 3. Fremdsprache Französisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Griechisch, Latein, Mathematik, Musik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Griechisch",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -41,7 +74,26 @@
       "abiturNote": 2.28,
       "previousYearErstwuensche": 168,
       "changeErstwuensche": -12,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, S5 Französisch/Englisch, 3. Fremdsprache Französisch, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde",
+        "Spanisch"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 10:00"
     },
     {
       "year": "2025/26",
@@ -55,7 +107,22 @@
       "abiturNote": 2.08,
       "previousYearErstwuensche": 161,
       "changeErstwuensche": 52,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, 3. Fremdsprache Latein, 3. Fremdsprache Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -69,7 +136,23 @@
       "abiturNote": 2.15,
       "previousYearErstwuensche": 68,
       "changeErstwuensche": -1,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Chinesisch",
+      "coursesRaw": "Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Physik",
+      "courses": [
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Physik"
+      ],
+      "openDayDate": "2026-01-16",
+      "openDayRaw": "Freitag, 16. Januar 2026 - 15:00 bis 18:00"
     },
     {
       "year": "2025/26",
@@ -83,7 +166,25 @@
       "abiturNote": 2.32,
       "previousYearErstwuensche": 144,
       "changeErstwuensche": -34,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Spanisch, S6 Englisch/Italienisch",
+      "coursesRaw": "Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Latein, Mathematik, Physik, Spanisch",
+      "courses": [
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Latein",
+        "Mathematik",
+        "Physik",
+        "Spanisch"
+      ],
+      "openDayDate": "2026-01-23",
+      "openDayRaw": "Freitag, 23. Januar 2026 - 15:00 bis 18:00"
     },
     {
       "year": "2025/26",
@@ -97,7 +198,24 @@
       "abiturNote": 2.41,
       "previousYearErstwuensche": 113,
       "changeErstwuensche": 16,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 11:00 bis 14:00"
     },
     {
       "year": "2025/26",
@@ -111,7 +229,24 @@
       "abiturNote": 2.68,
       "previousYearErstwuensche": 131,
       "changeErstwuensche": -37,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Deutsch, Englisch, Erdkunde, Französisch, Mathematik, Musik, Physik, Politische Weltkunde, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde",
+        "Spanisch"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 10:00 bis 14:00"
     },
     {
       "year": "2025/26",
@@ -125,7 +260,25 @@
       "abiturNote": 2.46,
       "previousYearErstwuensche": 53,
       "changeErstwuensche": -10,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-23",
+      "openDayRaw": "Freitag, 23. Januar 2026 - 15:00 bis 18:00"
     },
     {
       "year": "2025/26",
@@ -139,7 +292,24 @@
       "abiturNote": 2.49,
       "previousYearErstwuensche": 112,
       "changeErstwuensche": -59,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, S5 Französisch/Englisch, 3. Fremdsprache Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-02-13",
+      "openDayRaw": "Freitag, 13. Februar 2026 - 16:00 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -153,7 +323,21 @@
       "abiturNote": 2.38,
       "previousYearErstwuensche": 175,
       "changeErstwuensche": -29,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, 3. Fremdsprache Latein, 4. Fremdsprache Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Deutsch, Englisch, Französisch, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -167,7 +351,22 @@
       "abiturNote": 2.18,
       "previousYearErstwuensche": 110,
       "changeErstwuensche": -14,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch. Spanisch als 2. Fremdsprache ab Klasse 7 (Schnelllerner ab Klasse 6)",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik"
+      ]
     },
     {
       "year": "2025/26",
@@ -181,7 +380,21 @@
       "abiturNote": 1.91,
       "previousYearErstwuensche": 40,
       "changeErstwuensche": 30,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Biologie, Chemie, Englisch, Erdkunde, Informatik / Informationsverarbeitung, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Biologie",
+        "Chemie",
+        "Englisch",
+        "Erdkunde",
+        "Informatik / Informationsverarbeitung",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -195,7 +408,25 @@
       "abiturNote": 2.24,
       "previousYearErstwuensche": 143,
       "changeErstwuensche": -54,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik / Informationsverarbeitung, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik / Informationsverarbeitung",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-16",
+      "openDayRaw": "Freitag, 16. Januar 2026 - 15:00 bis 18:00"
     },
     {
       "year": "2025/26",
@@ -209,7 +440,25 @@
       "abiturNote": 1.94,
       "previousYearErstwuensche": 161,
       "changeErstwuensche": -34,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, S5 Französisch/Englisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-27",
+      "openDayRaw": "Dienstag, 27. Januar 2026 - 16:00 bis 18:30"
     },
     {
       "year": "2025/26",
@@ -223,7 +472,22 @@
       "abiturNote": 2.76,
       "previousYearErstwuensche": 146,
       "changeErstwuensche": -58,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, S7 Englisch/Türkisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Mathematik, Philosophie, Physik, Türkisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Mathematik",
+        "Philosophie",
+        "Physik",
+        "Türkisch"
+      ]
     },
     {
       "year": "2025/26",
@@ -237,7 +501,24 @@
       "abiturNote": 2.15,
       "previousYearErstwuensche": 190,
       "changeErstwuensche": -5,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Russisch, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Latein, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -251,7 +532,23 @@
       "abiturNote": 2.21,
       "previousYearErstwuensche": 131,
       "changeErstwuensche": 91,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Latein, Mathematik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Latein",
+        "Mathematik",
+        "Physik"
+      ]
     },
     {
       "year": "2025/26",
@@ -265,7 +562,19 @@
       "abiturNote": 1.84,
       "previousYearErstwuensche": 141,
       "changeErstwuensche": -33,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S3 Englisch/Russisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Spanisch, 4. Fremdsprache Latein",
+      "coursesRaw": "Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Mathematik, Physik",
+      "courses": [
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik"
+      ]
     },
     {
       "year": "2025/26",
@@ -279,7 +588,24 @@
       "abiturNote": 2.2,
       "previousYearErstwuensche": 155,
       "changeErstwuensche": -31,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, 3. Fremdsprache Latein, 4. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 9:30 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -293,7 +619,14 @@
       "abiturNote": 2.51,
       "previousYearErstwuensche": 142,
       "changeErstwuensche": -33,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Latein",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ],
+      "openDayDate": "2026-01-22",
+      "openDayRaw": "Donnerstag, 22. Januar 2026 - 16:00 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -306,7 +639,12 @@
       "nachfrageProzent": 56,
       "abiturNote": null,
       "previousYearErstwuensche": 21,
-      "changeErstwuensche": 69
+      "changeErstwuensche": 69,
+      "languagesRaw": "Englisch, Französisch, Spanisch",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ]
     },
     {
       "year": "2025/26",
@@ -320,7 +658,22 @@
       "abiturNote": 1.8,
       "previousYearErstwuensche": 111,
       "changeErstwuensche": -17,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Physik"
+      ]
     },
     {
       "year": "2025/26",
@@ -334,7 +687,25 @@
       "abiturNote": 2.3,
       "previousYearErstwuensche": 147,
       "changeErstwuensche": -33,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Latein, 3. Fremdsprache Japanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Latein, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -348,7 +719,23 @@
       "abiturNote": 2.3,
       "previousYearErstwuensche": 201,
       "changeErstwuensche": -32,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -361,7 +748,14 @@
       "nachfrageProzent": 80,
       "abiturNote": null,
       "previousYearErstwuensche": 54,
-      "changeErstwuensche": 74
+      "changeErstwuensche": 74,
+      "languagesRaw": "Englisch, Französisch, Latein, Spanisch",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ],
+      "openDayDate": "2026-02-28",
+      "openDayRaw": "Samstag, 28. Februar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -375,7 +769,27 @@
       "abiturNote": 2.51,
       "previousYearErstwuensche": 118,
       "changeErstwuensche": -2,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Latein, Mathematik, Musik, Physik, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Spanisch"
+      ],
+      "openDayDate": "2026-02-21",
+      "openDayRaw": "Samstag, 21. Februar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -389,7 +803,23 @@
       "abiturNote": 2.56,
       "previousYearErstwuensche": 168,
       "changeErstwuensche": -69,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "Englisch, Französisch, Latein, Russisch, Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik"
+      ],
+      "openDayDate": "2026-01-16",
+      "openDayRaw": "Freitag, 16. Januar 2026 - 16:00 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -403,7 +833,21 @@
       "abiturNote": 2.35,
       "previousYearErstwuensche": 118,
       "changeErstwuensche": -33,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Russisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -417,7 +861,24 @@
       "abiturNote": 1.91,
       "previousYearErstwuensche": 121,
       "changeErstwuensche": 45,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde",
+        "Spanisch"
+      ]
     },
     {
       "year": "2025/26",
@@ -431,7 +892,12 @@
       "abiturNote": 2.65,
       "previousYearErstwuensche": 178,
       "changeErstwuensche": -15,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, S3 Englisch/Russisch, 3. Fremdsprache Latein",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ]
     },
     {
       "year": "2025/26",
@@ -445,7 +911,22 @@
       "abiturNote": 2.67,
       "previousYearErstwuensche": 134,
       "changeErstwuensche": -39,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "Englisch, Französisch, Latein. Altsprachlicher Zug ab Klasse 5. Bilingualer französischer Zug ab Klasse 7.",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -459,7 +940,23 @@
       "abiturNote": 2.53,
       "previousYearErstwuensche": 217,
       "changeErstwuensche": -130,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Chinesisch",
+      "coursesRaw": "Deutsch, Englisch, Französisch, Mathematik, Biologie, Chemie, Physik, Geografie, Geschichte, Politikwissenschaft, Musik, Kunst",
+      "courses": [
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Mathematik",
+        "Biologie",
+        "Chemie",
+        "Physik",
+        "Geografie",
+        "Geschichte",
+        "Politikwissenschaft",
+        "Musik",
+        "Kunst"
+      ]
     },
     {
       "year": "2025/26",
@@ -472,7 +969,12 @@
       "nachfrageProzent": 50,
       "abiturNote": null,
       "previousYearErstwuensche": 0,
-      "changeErstwuensche": 64
+      "changeErstwuensche": 64,
+      "languagesRaw": "Englisch, Französisch, Spanisch",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ]
     },
     {
       "year": "2025/26",
@@ -486,7 +988,25 @@
       "abiturNote": 2.44,
       "previousYearErstwuensche": 91,
       "changeErstwuensche": -25,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Polnisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Latein, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -500,7 +1020,22 @@
       "abiturNote": 2.37,
       "previousYearErstwuensche": 198,
       "changeErstwuensche": -73,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Informatik/Informationsverarbeitung, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -514,7 +1049,25 @@
       "abiturNote": 2.25,
       "previousYearErstwuensche": 148,
       "changeErstwuensche": 25,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, S6 Englisch/Italienisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Italienisch, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Italienisch",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -528,7 +1081,25 @@
       "abiturNote": 2.84,
       "previousYearErstwuensche": 89,
       "changeErstwuensche": 41,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Chinesisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -542,7 +1113,22 @@
       "abiturNote": 2.74,
       "previousYearErstwuensche": 101,
       "changeErstwuensche": -32,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Politische Weltkunde, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Politische Weltkunde",
+        "Spanisch"
+      ]
     },
     {
       "year": "2025/26",
@@ -556,7 +1142,22 @@
       "abiturNote": 2.67,
       "previousYearErstwuensche": 107,
       "changeErstwuensche": -28,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Latein, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Latein",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -570,7 +1171,25 @@
       "abiturNote": 2.15,
       "previousYearErstwuensche": 136,
       "changeErstwuensche": 72,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, S4 Englisch/Spanisch, 3. Fremdsprache Alt-Griechisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Russisch, 3. Fremdsprache Spanisch, 4. FS Latein, 4. FS Russisch, 4. FS Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Physik, Politische Weltkunde, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde",
+        "Spanisch"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 10:00 bis 14:00"
     },
     {
       "year": "2025/26",
@@ -584,7 +1203,12 @@
       "abiturNote": 1.73,
       "previousYearErstwuensche": 91,
       "changeErstwuensche": 11,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S2 Englisch/Latein, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Russisch, 4. Fremdsprache Spanisch",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ]
     },
     {
       "year": "2025/26",
@@ -598,7 +1222,24 @@
       "abiturNote": 1.66,
       "previousYearErstwuensche": 92,
       "changeErstwuensche": 3,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-29",
+      "openDayRaw": "Donnerstag, 29. Januar 2026 - 15:30 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -612,7 +1253,25 @@
       "abiturNote": 1.95,
       "previousYearErstwuensche": 112,
       "changeErstwuensche": 74,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde",
+        "Spanisch"
+      ],
+      "openDayDate": "2026-01-19",
+      "openDayRaw": "Montag, 19. Januar 2026 - 17:00 bis 20:00"
     },
     {
       "year": "2025/26",
@@ -626,7 +1285,24 @@
       "abiturNote": 2.13,
       "previousYearErstwuensche": 167,
       "changeErstwuensche": 33,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, S4 Englisch/Spanisch, 3. Fremdsprache Französisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-28",
+      "openDayRaw": "Mittwoch, 28. Januar 2026 - 16:30 bis 19:30"
     },
     {
       "year": "2025/26",
@@ -640,7 +1316,22 @@
       "abiturNote": 2.33,
       "previousYearErstwuensche": 298,
       "changeErstwuensche": -25,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, S5 Französisch/Englisch, 3. Fremdsprache Latein, 3. Fremdsprache Japanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Deutsch, Englisch, Erdkunde, Geschichte, Mathematik, Musik, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Spanisch"
+      ],
+      "openDayDate": "2026-01-29",
+      "openDayRaw": "Donnerstag, 29. Januar 2026 - 16:00"
     },
     {
       "year": "2025/26",
@@ -654,7 +1345,25 @@
       "abiturNote": 2,
       "previousYearErstwuensche": 207,
       "changeErstwuensche": -41,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, S6 Englisch/Italienisch, 3. Fremdsprache Latein, 3. Fremdsprache Chinesisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Italienisch, Mathematik, Philosophie, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Italienisch",
+        "Mathematik",
+        "Philosophie",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00 bis 14:00"
     },
     {
       "year": "2025/26",
@@ -668,7 +1377,14 @@
       "abiturNote": 2.42,
       "previousYearErstwuensche": 78,
       "changeErstwuensche": 60,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 10:00 bis 14:00"
     },
     {
       "year": "2025/26",
@@ -682,7 +1398,19 @@
       "abiturNote": 2.53,
       "previousYearErstwuensche": 186,
       "changeErstwuensche": -11,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Deutsch, Englisch, Geschichte, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Deutsch",
+        "Englisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -696,7 +1424,26 @@
       "abiturNote": 2.04,
       "previousYearErstwuensche": 145,
       "changeErstwuensche": -30,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Chinesisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Latein, Mathematik, Musik, Physik, Politische Weltkunde, Wirtschaftswissenschaft/-lehre",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde",
+        "Wirtschaftswissenschaft/-lehre"
+      ]
     },
     {
       "year": "2025/26",
@@ -710,7 +1457,24 @@
       "abiturNote": 2.23,
       "previousYearErstwuensche": 237,
       "changeErstwuensche": -54,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Polnisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -724,7 +1488,24 @@
       "abiturNote": 2.42,
       "previousYearErstwuensche": 104,
       "changeErstwuensche": 2,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde",
+        "Spanisch"
+      ]
     },
     {
       "year": "2025/26",
@@ -738,7 +1519,12 @@
       "abiturNote": 2.1,
       "previousYearErstwuensche": 85,
       "changeErstwuensche": 13,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Alt-Griechisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 4. Fremdsprache Spanisch, 4. Fremdsprache Chinesisch",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ]
     },
     {
       "year": "2025/26",
@@ -752,7 +1538,25 @@
       "abiturNote": 2.38,
       "previousYearErstwuensche": 158,
       "changeErstwuensche": -20,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-16",
+      "openDayRaw": "Freitag, 16. Januar 2026 - 15:00 bis 18:00"
     },
     {
       "year": "2025/26",
@@ -766,7 +1570,23 @@
       "abiturNote": 2.29,
       "previousYearErstwuensche": 100,
       "changeErstwuensche": -15,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch, 3. Fremdsprache Chinesisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Geografie, Geschichte, Mathematik, Musik, Physik, Politikwissenschaft",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geografie",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politikwissenschaft"
+      ]
     },
     {
       "year": "2025/26",
@@ -780,7 +1600,23 @@
       "abiturNote": 2.63,
       "previousYearErstwuensche": 167,
       "changeErstwuensche": -67,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Mathematik, Physik, Politische Weltkunde, Wirtschaftswissenschaft/-lehre",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde",
+        "Wirtschaftswissenschaft/-lehre"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 11:00 bis 14:00"
     },
     {
       "year": "2025/26",
@@ -794,7 +1630,23 @@
       "abiturNote": 2.24,
       "previousYearErstwuensche": 121,
       "changeErstwuensche": 9,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Mathematik, Musik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -808,7 +1660,21 @@
       "abiturNote": 2.56,
       "previousYearErstwuensche": 152,
       "changeErstwuensche": -42,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "Englisch/Französisch, Englisch/Spanisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik"
+      ]
     },
     {
       "year": "2025/26",
@@ -822,7 +1688,24 @@
       "abiturNote": 2.39,
       "previousYearErstwuensche": 114,
       "changeErstwuensche": -6,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "Englisch/Französisch, Englisch/Spanisch , 3. Fremdsprache Latein, 3. Fremdsprache Chinesisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -836,7 +1719,24 @@
       "abiturNote": 2.42,
       "previousYearErstwuensche": 145,
       "changeErstwuensche": -45,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, S5 Französisch/Englisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Latein, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -850,7 +1750,22 @@
       "abiturNote": 2.28,
       "previousYearErstwuensche": 130,
       "changeErstwuensche": -36,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, 3. Fremdsprache Latein, 3. Fremdsprache Russisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -864,7 +1779,24 @@
       "abiturNote": 2.29,
       "previousYearErstwuensche": 184,
       "changeErstwuensche": 31,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde, Sozialwissenschaften",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde",
+        "Sozialwissenschaften"
+      ]
     },
     {
       "year": "2025/26",
@@ -878,7 +1810,23 @@
       "abiturNote": 2,
       "previousYearErstwuensche": 119,
       "changeErstwuensche": 19,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "3. Fremdsprache Alt-Griechisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, S1 Englisch/Französisch, S2 Englisch/Latein, S4 Englisch/Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Latein, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -892,7 +1840,26 @@
       "abiturNote": 2.26,
       "previousYearErstwuensche": 112,
       "changeErstwuensche": 36,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "Fremdsprachenfolge Englisch/Französisch sowie Französisch/Englisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00"
     },
     {
       "year": "2025/26",
@@ -906,7 +1873,14 @@
       "abiturNote": 2.05,
       "previousYearErstwuensche": 194,
       "changeErstwuensche": -49,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ],
+      "openDayDate": "2026-01-16",
+      "openDayRaw": "Freitag, 16. Januar 2026 - 16:00 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -920,7 +1894,24 @@
       "abiturNote": 2.25,
       "previousYearErstwuensche": 155,
       "changeErstwuensche": -59,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Mathematik, Musik, Physik, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Spanisch"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 11:00 bis 14:00"
     },
     {
       "year": "2025/26",
@@ -934,7 +1925,25 @@
       "abiturNote": 1.82,
       "previousYearErstwuensche": 122,
       "changeErstwuensche": -33,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S2 Englisch/Latein, 3. Fremdsprache Alt-Griechisch, 3. Fremdsprache Französisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Latein, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 10:00 bis 14:00"
     },
     {
       "year": "2025/26",
@@ -948,7 +1957,22 @@
       "abiturNote": 2.35,
       "previousYearErstwuensche": 142,
       "changeErstwuensche": -27,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Italienisch",
+      "coursesRaw": "Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Latein, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Latein",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -962,7 +1986,24 @@
       "abiturNote": 2.2,
       "previousYearErstwuensche": 157,
       "changeErstwuensche": -46,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik"
+      ],
+      "openDayDate": "2026-01-15",
+      "openDayRaw": "Donnerstag, 15. Januar 2026 - 16:00 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -976,7 +2017,19 @@
       "abiturNote": 2.14,
       "previousYearErstwuensche": 97,
       "changeErstwuensche": 1,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Deutsch, Englisch, Erdkunde, Geschichte, Mathematik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Mathematik",
+        "Physik"
+      ]
     },
     {
       "year": "2025/26",
@@ -990,7 +2043,24 @@
       "abiturNote": 1.94,
       "previousYearErstwuensche": 62,
       "changeErstwuensche": 10,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch, 3. Fremdsprache Chinesisch, 4. Fremdsprache Russisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Philosophie, Physik, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Philosophie",
+        "Physik",
+        "Spanisch"
+      ]
     },
     {
       "year": "2025/26",
@@ -1004,7 +2074,27 @@
       "abiturNote": 2.33,
       "previousYearErstwuensche": 124,
       "changeErstwuensche": -33,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch, 4. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Latein, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 11:00 bis 14:00"
     },
     {
       "year": "2025/26",
@@ -1018,7 +2108,23 @@
       "abiturNote": 2.55,
       "previousYearErstwuensche": 51,
       "changeErstwuensche": 5,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S3 Englisch/Russisch, S6 Englisch/Italienisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Italienisch, Mathematik, Physik, Recht",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Italienisch",
+        "Mathematik",
+        "Physik",
+        "Recht"
+      ]
     },
     {
       "year": "2025/26",
@@ -1032,7 +2138,25 @@
       "abiturNote": 1.88,
       "previousYearErstwuensche": 0,
       "changeErstwuensche": 7,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S2 Englisch/Latein, 3. Fremdsprache Alt-Griechisch, 4. Fremdsprache Französisch",
+      "coursesRaw": "Alt-Griechisch, Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Latein, Mathematik, Musik, Neu-Griechisch, Physik, Politische Weltkunde",
+      "courses": [
+        "Alt-Griechisch",
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Neu-Griechisch",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -1046,7 +2170,26 @@
       "abiturNote": 2.05,
       "previousYearErstwuensche": 143,
       "changeErstwuensche": 12,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Italienisch, Latein, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Italienisch",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -1060,7 +2203,25 @@
       "abiturNote": 2.71,
       "previousYearErstwuensche": 77,
       "changeErstwuensche": 26,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -1074,7 +2235,25 @@
       "abiturNote": 2.19,
       "previousYearErstwuensche": 120,
       "changeErstwuensche": 15,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik / Informationsverarbeitung, Mathematik, Musik, Physik, Politische Weltkunde, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik / Informationsverarbeitung",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde",
+        "Spanisch"
+      ]
     },
     {
       "year": "2025/26",
@@ -1088,7 +2267,23 @@
       "abiturNote": 2.15,
       "previousYearErstwuensche": 111,
       "changeErstwuensche": -15,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -1102,7 +2297,24 @@
       "abiturNote": 2.34,
       "previousYearErstwuensche": 128,
       "changeErstwuensche": -6,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, S6 Englisch/Italienisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Italienisch, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Italienisch",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-23",
+      "openDayRaw": "Freitag, 23. Januar 2026 - 17:00 bis 20:00"
     },
     {
       "year": "2025/26",
@@ -1116,7 +2328,26 @@
       "abiturNote": 2.49,
       "previousYearErstwuensche": 166,
       "changeErstwuensche": -56,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Chinesisch, S4 Englisch/Spanisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch, 3. Fremdsprache Chinesisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Musik, Physik, Politische Weltkunde, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politische Weltkunde",
+        "Spanisch"
+      ],
+      "openDayDate": "2026-01-16",
+      "openDayRaw": "Freitag, 16. Januar 2026 - 16:00 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -1130,7 +2361,24 @@
       "abiturNote": 2.18,
       "previousYearErstwuensche": 149,
       "changeErstwuensche": -46,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Musik, Physik, Wirtschaftsinformatik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Wirtschaftsinformatik"
+      ],
+      "openDayDate": "2026-01-23",
+      "openDayRaw": "Freitag, 23. Januar 2026 - 16:00 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -1144,7 +2392,28 @@
       "abiturNote": 2.29,
       "previousYearErstwuensche": 58,
       "changeErstwuensche": -8,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Französisch, 3. Fremdsprache Latein",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik, Latein, Mathematik, Musik, Philosophie, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik",
+        "Latein",
+        "Mathematik",
+        "Musik",
+        "Philosophie",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-15",
+      "openDayRaw": "Donnerstag, 15. Januar 2026 - 16:00 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -1158,7 +2427,26 @@
       "abiturNote": 2.36,
       "previousYearErstwuensche": 58,
       "changeErstwuensche": -21,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "Englisch, Französisch, Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Mathematik, Musik, Physik, Politikwissenschaft",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Mathematik",
+        "Musik",
+        "Physik",
+        "Politikwissenschaft"
+      ],
+      "openDayDate": "2026-01-16",
+      "openDayRaw": "Freitag, 16. Januar 2026 - 16:00 bis 19:00"
     },
     {
       "year": "2025/26",
@@ -1172,7 +2460,14 @@
       "abiturNote": 2.08,
       "previousYearErstwuensche": 173,
       "changeErstwuensche": -6,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -1186,7 +2481,25 @@
       "abiturNote": 2.17,
       "previousYearErstwuensche": 146,
       "changeErstwuensche": -21,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S2 Englisch/Latein, 3. Fremdsprache Italienisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Informatik/Informationsverarbeitung, Latein, Mathematik, Physik",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Informatik/Informationsverarbeitung",
+        "Latein",
+        "Mathematik",
+        "Physik"
+      ],
+      "openDayDate": "2026-01-17",
+      "openDayRaw": "Samstag, 17. Januar 2026 - 9:00 bis 12:00"
     },
     {
       "year": "2025/26",
@@ -1200,7 +2513,24 @@
       "abiturNote": 2.38,
       "previousYearErstwuensche": 156,
       "changeErstwuensche": -2,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S5 Französisch/Englisch, 3. Fremdsprache Latein, 3. Fremdsprache Russisch, 4. Fremdsprache Russisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Französisch, Geschichte, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ],
+      "openDayDate": "2026-01-24",
+      "openDayRaw": "Samstag, 24. Januar 2026 - 10:00 bis 13:00"
     },
     {
       "year": "2025/26",
@@ -1214,7 +2544,20 @@
       "abiturNote": 2.15,
       "previousYearErstwuensche": 116,
       "changeErstwuensche": 25,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, 3. Fremdsprache Latein, 4. Fremdsprache Russisch",
+      "coursesRaw": "Biologie, Chemie, Deutsch, Englisch, Französisch, Geschichte, Mathematik, Physik, Politische Weltkunde",
+      "courses": [
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Geschichte",
+        "Mathematik",
+        "Physik",
+        "Politische Weltkunde"
+      ]
     },
     {
       "year": "2025/26",
@@ -1228,7 +2571,21 @@
       "abiturNote": 2.41,
       "previousYearErstwuensche": 121,
       "changeErstwuensche": 8,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Französisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Mathematik, Physik, Spanisch",
+      "courses": [
+        "Bildende Kunst/Kunst",
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Mathematik",
+        "Physik",
+        "Spanisch"
+      ]
     },
     {
       "year": "2025/26",
@@ -1242,7 +2599,19 @@
       "abiturNote": 2.3,
       "previousYearErstwuensche": 119,
       "changeErstwuensche": -38,
-      "abiturYear": 2025
+      "abiturYear": 2025,
+      "languagesRaw": "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Latein, 3. Fremdsprache Spanisch",
+      "coursesRaw": "Biologie, Chemie, Deutsch, Englisch, Erdkunde, Geschichte, Mathematik, Physik",
+      "courses": [
+        "Biologie",
+        "Chemie",
+        "Deutsch",
+        "Englisch",
+        "Erdkunde",
+        "Geschichte",
+        "Mathematik",
+        "Physik"
+      ]
     },
     {
       "year": "2025/26",
@@ -1255,7 +2624,14 @@
       "nachfrageProzent": 56,
       "abiturNote": null,
       "previousYearErstwuensche": 60,
-      "changeErstwuensche": -13
+      "changeErstwuensche": -13,
+      "languagesRaw": "Englisch, Französisch, Spanisch",
+      "coursesRaw": "-",
+      "courses": [
+        "-"
+      ],
+      "openDayDate": "2026-01-29",
+      "openDayRaw": "Donnerstag, 29. Januar 2026 - 16:00 bis 18:30"
     }
   ]
 }

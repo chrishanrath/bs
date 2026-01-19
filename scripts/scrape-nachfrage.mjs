@@ -222,6 +222,93 @@ async function main() {
           school.abiturYear = bestYear; // Optional: store which year it is
         }
       }
+
+      // 3. Extract Languages and Advanced Courses (Leistungskurse)
+      // They are in a table with section headers like <a id="Sprachen"></a>Sprachen
+      // We look for the cell containing "Sprachen" or "Leistungskurse" and get the content from the NEXT row.
+      
+      let languagesRaw = null;
+      let coursesRaw = null;
+
+      $("td").each((_, td) => {
+        const text = $(td).text().trim();
+        
+        if (text === "Sprachen" || $(td).find("a[name='Sprachen']").length > 0) {
+          // Get next row
+          const nextTr = $(td).closest("tr").next("tr");
+          if (nextTr.length) {
+            languagesRaw = nextTr.text().trim();
+          }
+        }
+        
+        if (text === "Leistungskurse" || $(td).find("a[name='Leistungskurse']").length > 0) {
+          const nextTr = $(td).closest("tr").next("tr");
+          if (nextTr.length) {
+            coursesRaw = nextTr.text().trim();
+          }
+        }
+      });
+
+      if (languagesRaw) {
+        school.languagesRaw = languagesRaw;
+        // Simple parsing: split by comma or slash? Usually comma separated or descriptive text.
+        // Example: "S1 Englisch/Französisch, S4 Englisch/Spanisch, 3. Fremdsprache Latein"
+        // Let's store raw for now, maybe parse in frontend or improve here later.
+      }
+
+      if (coursesRaw) {
+        school.coursesRaw = coursesRaw;
+        // Example: "Bildende Kunst/Kunst, Biologie, Chemie, Deutsch..."
+        // Split by comma
+        school.courses = coursesRaw.split(",").map(c => c.trim()).filter(c => c);
+      }
+
+      // 4. Extract "Tag der offenen Tür"
+      // Look for <span class="date-display-single"> inside the relevant view or near the header
+      // Header: <a id="Tdot">
+      
+      let tdotRaw = null;
+      let tdotDate = null;
+
+      // Try to find the section by ID first to be safe
+      const tdotHeader = $("a[name='Tdot']");
+      if (tdotHeader.length > 0) {
+        // The date is usually in a view-content table following this header
+        // We can search for the class "date-display-single" globally or scoped
+        // Let's search globally but prioritize valid future dates if multiple?
+        // Actually, on the school page, there should be only one main Tdot event usually.
+        
+        const dateSpan = $("span.date-display-single").first();
+        if (dateSpan.length > 0) {
+          tdotRaw = dateSpan.text().trim();
+          // Parse "Donnerstag, 29. Januar 2026 - 15:30 bis 19:00"
+          // Regex to capture Day, Month, Year
+          const dateMatch = tdotRaw.match(/(\d+)\.\s+([A-Za-zä]+)\s+(\d{4})/);
+          if (dateMatch) {
+            const day = parseInt(dateMatch[1], 10);
+            const monthName = dateMatch[2];
+            const year = parseInt(dateMatch[3], 10);
+            
+            const months = {
+              "Januar": 0, "Februar": 1, "März": 2, "April": 3, "Mai": 4, "Juni": 5,
+              "Juli": 6, "August": 7, "September": 8, "Oktober": 9, "November": 10, "Dezember": 11
+            };
+            
+            if (months[monthName] !== undefined) {
+              const d = new Date(year, months[monthName], day);
+              // Adjust for timezone? Simple ISO string YYYY-MM-DD is enough
+              // Use local time to string
+              const pad = (n) => n.toString().padStart(2, '0');
+              tdotDate = `${year}-${pad(months[monthName] + 1)}-${pad(day)}`;
+            }
+          }
+        }
+      }
+      
+      if (tdotDate) {
+        school.openDayDate = tdotDate;
+        school.openDayRaw = tdotRaw;
+      }
       
       process.stdout.write("."); // Progress indicator
     } catch (e) {
