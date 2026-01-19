@@ -327,6 +327,7 @@
             <th data-k="name">Gymnasium</th>
             <th data-k="bezirk">Bezirk</th>
             <th data-k="ortsteil">Ortsteil</th>
+            <th data-k="openDayDate">TdoT</th>
             <th data-k="plaetze">Plätze</th>
             <th data-k="erstwuensche">Wünsche</th>
             <th data-k="changeErstwuensche">Trend</th>
@@ -337,7 +338,7 @@
           </tr>
         </thead>
         <tbody id="rows">
-          <tr><td colspan="10" class="no-results">Lade Daten...</td></tr>
+          <tr><td colspan="11" class="no-results">Lade Daten...</td></tr>
         </tbody>
       </table>
     </div>
@@ -446,6 +447,13 @@
     }
   }
 
+  function formatDateShort(iso) {
+    if (!iso) return "-";
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return "-";
+    return d.toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "2-digit" });
+  }
+
   function render() {
     const bezirkFilter = document.querySelector("#bezirk").value;
     const qFilter = normalize(document.querySelector("#q").value);
@@ -532,7 +540,7 @@
 
     const tbody = document.querySelector("#rows");
     if (filtered.length === 0) {
-      tbody.innerHTML = '<tr><td colspan="10" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="11" class="no-results">Keine Schulen gefunden, die den Filtern entsprechen.</td></tr>';
       return;
     }
 
@@ -546,6 +554,7 @@
         </td>
         <td>${r.bezirk}</td>
         <td>${r.ortsteil}</td>
+        <td style="font-size:0.9rem; white-space:nowrap;">${formatDateShort(r.openDayDate)}</td>
         <td>${r.plaetze}</td>
         <td>${r.erstwuensche}</td>
         <td>${getTrendDisplay(r.changeErstwuensche)}</td>
@@ -644,7 +653,7 @@
     } catch (e) {
       console.error(e);
       document.querySelector("#rows").innerHTML = 
-        '<tr><td colspan="10" class="no-results">Fehler beim Laden der Daten. Bitte führen Sie den Scraper aus.</td></tr>';
+        '<tr><td colspan="11" class="no-results">Fehler beim Laden der Daten. Bitte führen Sie den Scraper aus.</td></tr>';
     }
   }
 
